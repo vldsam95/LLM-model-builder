@@ -1,0 +1,290 @@
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה למידת מכונה?", "assistant": "למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה."}
+{"system": "Act as a translation assistant.", "user": "Translate 'article' to Hebrew.", "assistant": "מאמר"}
+{"system": "Respond in compact JSON only.", "user": "Explain SEO in JSON", "assistant": "{\"topic\": \"SEO\", \"summary\": \"SEO is the practice of improving website visibility in search engines.\"}"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה שיווק.", "assistant": "שיווק הוא מונח המתאר פעילות אשר מקדמת מכירה של מוצר (סחורה, שירות או רעיון)."}
+{"system": "Act as a tiny SEO assistant.", "user": "Write a short meta description for a small business website.", "assistant": "Short practical overview of a small business website for readers who want a quick introduction."}
+{"system": "Answer briefly in English.", "user": "Explain Artificial intelligence in one sentence.", "assistant": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."}
+{"system": "Answer briefly and factually.", "user": "Who replaced universities as centres of scientific research and development during the Enlightenment?", "assistant": "scientific societies and academies"}
+{"system": "Respond in compact JSON.", "user": "Explain Machine learning in JSON.", "assistant": "{\"topic\": \"Machine learning\", \"summary\": \"Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.\"}"}
+{"system": "Answer briefly and factually.", "user": "Which mycobacterium that causes TB can often be found in unpasteurized milk?", "assistant": "M. bovis"}
+{"system": "Respond in compact JSON.", "user": "Explain Content marketing in JSON.", "assistant": "{\"topic\": \"Content marketing\", \"summary\": \"Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online.\"}"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את מחשב ב-JSON.", "assistant": "{\"topic\": \"מחשב\", \"summary\": \"מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש.\"}"}
+{"system": "Act as a translation assistant.", "user": "Translate 'search engine' to Hebrew.", "assistant": "מנוע חיפוש"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה נתונים?", "assistant": "נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה."}
+{"system": "Answer briefly and factually.", "user": "What country did China see as a threat to the People's Republic of China?", "assistant": "Western nations"}
+{"system": "Answer briefly in English.", "user": "Explain User interface in one sentence.", "assistant": "In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur."}
+{"system": "Answer briefly and factually.", "user": "How does lucha libre's tag team matches differ?", "assistant": "often made up of three members, instead of two as is common in the U.S"}
+{"system": "Answer briefly and factually.", "user": "What year marked the onset of the Crusades?", "assistant": "1095"}
+{"system": "Answer briefly and factually.", "user": "Who issued the copper tokens in 1821?", "assistant": "Saul Solomon"}
+{"system": "Answer briefly and factually.", "user": "What year was the college founded?", "assistant": "1887"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: בית", "assistant": "house"}
+{"system": "Answer briefly and factually.", "user": "What letter of the alphabet do most of the last names the men of Greecs end with ?", "assistant": "Greek male surnames end in -s, which is the common ending"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה מנוע חיפוש.", "assistant": "מנוע חיפוש הוא מערכת אחזור מידע שמטרתה לאתר מידע ברשת דיגיטלי מסוגים שונים (אתרי אינטרנט, קבצים או רשומות המייצגות פריטים פיזיים) המאוחסן במחשב או במערכת מידע."}
+{"system": "Act as a translation assistant.", "user": "Translate 'automation' to Hebrew.", "assistant": "אוטומציה"}
+{"system": "Answer briefly and factually.", "user": "Broadcast in Hong Kong used which standard formatting?", "assistant": "PAL standard"}
+{"system": "Answer briefly and factually.", "user": "Which people became extinct after the Homosapiens arrived?", "assistant": "Homo floresiensis"}
+{"system": "Answer briefly and factually.", "user": "Where can the basic tasks of the European Central Bank be found?", "assistant": "Article 3 of the Statute"}
+{"system": "Answer briefly and factually.", "user": "What Academy Award-winning director was a relative of Carl Laemmle's?", "assistant": "William Wyler"}
+{"system": "Answer briefly and factually.", "user": "Who announced this would be his final year as a judge?", "assistant": "Randy Jackson"}
+{"system": "Answer briefly.", "user": "Hi", "assistant": "Hi. Ask me for a short explanation, translation, or SEO help."}
+{"system": "Act as a tiny SEO assistant.", "user": "Write a short meta description for a AI article.", "assistant": "Short practical overview of a AI article for readers who want a quick introduction."}
+{"system": "Answer briefly and factually.", "user": "What monastic order did Bernard of Clairvaux belong to?", "assistant": "Cistercians"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה עיבוד שפה טבעית.", "assistant": "עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה תרגום?", "assistant": "תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה."}
+{"system": "Act as a tiny marketing assistant.", "user": "Write a short title for a marketing automation tool.", "assistant": "Clear Marketing Automation Tool Guide"}
+{"system": "Answer briefly in English.", "user": "What is Computer?", "assistant": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation)."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: אוטומציה", "assistant": "automation"}
+{"system": "Answer briefly in English.", "user": "What is Digital marketing?", "assistant": "Digital marketing is a component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media platforms to promote products and services."}
+{"system": "Respond in compact JSON.", "user": "Explain Artificial intelligence in JSON.", "assistant": "{\"topic\": \"Artificial intelligence\", \"summary\": \"Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\"}"}
+{"system": "Act as a tiny marketing assistant.", "user": "Write a short title for a blog about machine learning.", "assistant": "Clear Blog About Machine Learning Guide"}
+{"system": "Answer briefly and factually.", "user": "In some cases, charcters are invented to represent what?", "assistant": "a particular morpheme"}
+{"system": "Answer briefly and factually.", "user": "Who gets to decide how long stoppage time can go on for?", "assistant": "referee"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: תוכן", "assistant": "content"}
+{"system": "Answer briefly and factually.", "user": "What degree was Edmund Fanning given for his services?", "assistant": "an honorary degree LL.D"}
+{"system": "Answer briefly and factually.", "user": "What navigator discovered the island?", "assistant": "João da Nova"}
+{"system": "Answer briefly and factually.", "user": "Whose body is used as a proxy by Ganondorf in order to fight Link?", "assistant": "Zelda's"}
+{"system": "Answer briefly and factually.", "user": "What was the most common historical method of execution in the United States?", "assistant": "hanging"}
+{"system": "Answer briefly in English.", "user": "What is Marketing?", "assistant": "Marketing is the act of acquiring, satisfying and retaining customers.It is one of the primary components of business management and commerce."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: עוזר", "assistant": "assistant"}
+{"system": "Answer briefly and factually.", "user": "What do some people say is even worse than the effects of tuberculosis itself?", "assistant": "the stigma"}
+{"system": "Respond in compact JSON.", "user": "Explain Search engine optimization in JSON.", "assistant": "{\"topic\": \"Search engine optimization\", \"summary\": \"Search engine optimization (SEO) is the practice of improving the visibility and performance of websites and web pages in search engine results pages (SERPs).\"}"}
+{"system": "Answer briefly and factually.", "user": "What makes zinc an efficient sacrificial anode?", "assistant": "relative reactivity of zinc and its ability to attract oxidation"}
+{"system": "Answer briefly and factually.", "user": "When does \"Movement\" occur?", "assistant": "Memorial Day Weekend"}
+{"system": "Answer briefly in English.", "user": "Explain JSON in one sentence.", "assistant": "JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values)."}
+{"system": "Act as a translation assistant.", "user": "Translate 'website' to Hebrew.", "assistant": "אתר"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה JSON?", "assistant": "JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך."}
+{"system": "Answer briefly and factually.", "user": "Atticus Finch's children make friends with whom during the story?", "assistant": "Dill"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה אוטומציה?", "assistant": "אוטומציה (מיוונית עתיקה – \"פועל מעצמו\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם."}
+{"system": "Answer briefly and factually.", "user": "How many weeks is one academic quarter at Northwestern?", "assistant": "approximately 10"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה פרסום?", "assistant": "פרסום הוא פעולה שנעשית בדרך כלל בתשלום, אשר מציגה ומקדמת מכירה של סחורה, שירות או רעיון."}
+{"system": "Answer briefly and factually.", "user": "How does heartwood formation occur due to its being genetically programmed?", "assistant": "spontaneously"}
+{"system": "Act as a translation assistant.", "user": "Translate 'data' to Hebrew.", "assistant": "נתונים"}
+{"system": "Answer briefly and factually.", "user": "In 2007, what kind of contest was Jennifer Strange participating in upon her death?", "assistant": "water-drinking"}
+{"system": "Answer briefly in English.", "user": "What is Artificial intelligence?", "assistant": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."}
+{"system": "Answer briefly and factually.", "user": "What is the name of the Arboretum owned by the University of Michigan?", "assistant": "Nichols Arboretum"}
+{"system": "Answer briefly and factually.", "user": "What is thought to have eroded Greece's potential output?", "assistant": "prolonged massive unemployment"}
+{"system": "Answer briefly and factually.", "user": "What words were yelled by Librarians that required first year students to come?", "assistant": "\"Boy, Up!\" or \"Boy, Queue!\""}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה פרסום.", "assistant": "פרסום הוא פעולה שנעשית בדרך כלל בתשלום, אשר מציגה ומקדמת מכירה של סחורה, שירות או רעיון."}
+{"system": "Answer briefly and factually.", "user": "How much of Ireland's Russian speakers are Irish citizens?", "assistant": "20%"}
+{"system": "Answer briefly and factually.", "user": "How did British rule effect Indian cotton processing?", "assistant": "declined"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: מאמר", "assistant": "article"}
+{"system": "Answer briefly and factually.", "user": "What is anting?", "assistant": "bird encourages ants to run through their plumage"}
+{"system": "Answer briefly and factually.", "user": "When had Swiss mountaineers ascended most of the peaks?", "assistant": "the mid-1850s"}
+{"system": "Respond in compact JSON only.", "user": "ענה לי ב-JSON מה זה בינה מלאכותית", "assistant": "{\"topic\": \"בינה מלאכותית\", \"summary\": \"תחום במדעי המחשב שמפתח מערכות המבצעות משימות הדורשות אינטליגנציה אנושית.\"}"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את עיבוד שפה טבעית ב-JSON.", "assistant": "{\"topic\": \"עיבוד שפה טבעית\", \"summary\": \"עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות.\"}"}
+{"system": "Answer briefly and factually.", "user": "When did US Senate vote against treaty of versailles ratification?", "assistant": "19 March 1920"}
+{"system": "Answer briefly and factually.", "user": "What was Carnivore renamed to?", "assistant": "DCS1000"}
+{"system": "Respond in compact JSON.", "user": "Explain User interface in JSON.", "assistant": "{\"topic\": \"User interface\", \"summary\": \"In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur.\"}"}
+{"system": "Answer briefly and factually.", "user": "When did the USFL shut down?", "assistant": "1985"}
+{"system": "Answer briefly and factually.", "user": "What inhibited North Carolina for thousands of years?", "assistant": "prehistoric indigenous cultures"}
+{"system": "Act as a translation assistant.", "user": "Translate 'assistant' to Hebrew.", "assistant": "עוזר"}
+{"system": "Respond in compact JSON.", "user": "Explain Website in JSON.", "assistant": "{\"topic\": \"Website\", \"summary\": \"A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server.\"}"}
+{"system": "Answer briefly and factually.", "user": "From what did the Renaissance Movement mark the change?", "assistant": "medieval' to the 'modern"}
+{"system": "Answer briefly and factually.", "user": "Who was enslaved more often?", "assistant": "black women"}
+{"system": "Answer briefly and factually.", "user": "What did Victoria think of Lady Flora?", "assistant": "despised"}
+{"system": "Respond in compact JSON.", "user": "Explain JSON in JSON.", "assistant": "{\"topic\": \"JSON\", \"summary\": \"JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values).\"}"}
+{"system": "Respond in compact JSON.", "user": "Explain Automation in JSON.", "assistant": "{\"topic\": \"Automation\", \"summary\": \"Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines.\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה צ'אטבוט?", "assistant": "צ'אטבוט ולעיתים צ'טבוט (באנגלית: chatbot) הוא תוכנה המתמחה בניהול שיחות טקסטואליות."}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את בינה מלאכותית ב-JSON.", "assistant": "{\"topic\": \"בינה מלאכותית\", \"summary\": \"בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית.\"}"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את תרגום ב-JSON.", "assistant": "{\"topic\": \"תרגום\", \"summary\": \"תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה.\"}"}
+{"system": "Answer briefly and factually.", "user": "What is the name of the best-known private institute of technology in Thailand?", "assistant": "Mahanakorn University of Technology"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: בוקר טוב", "assistant": "good morning"}
+{"system": "Answer briefly and factually.", "user": "Which region did Prince Albert aim to make famous as an educational region?", "assistant": "South Kensington"}
+{"system": "Answer briefly and factually.", "user": "What other notable figure signed the letter in which Hayek made his statement regarding private investment?", "assistant": "Lionel Robbins"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את פרסום ב-JSON.", "assistant": "{\"topic\": \"פרסום\", \"summary\": \"פרסום הוא פעולה שנעשית בדרך כלל בתשלום, אשר מציגה ומקדמת מכירה של סחורה, שירות או רעיון.\"}"}
+{"system": "Answer briefly and factually.", "user": "What percentage of Galicians identify with this religion?", "assistant": "73%"}
+{"system": "Answer briefly and factually.", "user": "What term was coined in the 16th century to indicate present time?", "assistant": "modern"}
+{"system": "Answer briefly in English.", "user": "What is Natural language processing?", "assistant": "Natural language processing (NLP) is the processing of natural language information by a computer."}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את צ'אטבוט ב-JSON.", "assistant": "{\"topic\": \"צ'אטבוט\", \"summary\": \"צ'אטבוט ולעיתים צ'טבוט (באנגלית: chatbot) הוא תוכנה המתמחה בניהול שיחות טקסטואליות.\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה ממשק משתמש?", "assistant": "מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת."}
+{"system": "Answer briefly in English.", "user": "What is Machine learning?", "assistant": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions."}
+{"system": "Respond in compact JSON.", "user": "Explain Translation in JSON.", "assistant": "{\"topic\": \"Translation\", \"summary\": \"Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language').\"}"}
+{"system": "Answer briefly and factually.", "user": "What does the University of Arizona Poetry Center offer?", "assistant": "a sizable poetry library and presents readings, conferences, and workshops"}
+{"system": "Answer briefly in English.", "user": "What is Content marketing?", "assistant": "Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online."}
+{"system": "Answer briefly and factually.", "user": "How many people were killed in the explosions at the Boston marathon?", "assistant": "three"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: קידום אתרים", "assistant": "SEO"}
+{"system": "Answer briefly and factually.", "user": "Why have birds been domesticated by humans?", "assistant": "both as pets and for practical purposes"}
+{"system": "Answer briefly and factually.", "user": "What is more cost-effective, heat from incandescent bulbs or heat from a building's heating system?", "assistant": "heat from the heating system"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה מחשב?", "assistant": "מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש."}
+{"system": "Act as a translation assistant.", "user": "Translate 'description' to Hebrew.", "assistant": "תיאור"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: כותרת", "assistant": "title"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את שיווק באמצעות תוכן ב-JSON.", "assistant": "{\"topic\": \"שיווק באמצעות תוכן\", \"summary\": \"שיווק באמצעות תוכן הוא סוג של שיווק שמתמקד בכתיבה, פרסום והפצה של תוכן לקהלי יעד שונים ברחבי האינטרנט.\"}"}
+{"system": "Answer briefly and factually.", "user": "Who granted Imperial close to 170 million pounds in grants?", "assistant": "Funding Council"}
+{"system": "Answer briefly and factually.", "user": "What style of dress did Arab troops wear under Marwan II?", "assistant": "Greek"}
+{"system": "Answer briefly and factually.", "user": "What book did Ibn al-Haytham write?", "assistant": "Book of Optics"}
+{"system": "Answer briefly and factually.", "user": "What is the largest Nigerian city?", "assistant": "Lagos"}
+{"system": "Answer briefly in English.", "user": "What is Automation?", "assistant": "Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines."}
+{"system": "Answer briefly and factually.", "user": "Who unseated Sultan Hamid?", "assistant": "Young Turk Revolution"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה מחשב.", "assistant": "מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש."}
+{"system": "Act as a tiny marketing assistant.", "user": "Write a short title for a SEO guide.", "assistant": "Clear Seo Guide Guide"}
+{"system": "Answer briefly and factually.", "user": "In Byzantine Gaza, Jews were relaxed on what ban?", "assistant": "figurative depiction"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה נתונים.", "assistant": "נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה."}
+{"system": "Answer briefly in English.", "user": "Explain Digital marketing in one sentence.", "assistant": "Digital marketing is a component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media platforms to promote products and services."}
+{"system": "Answer briefly and factually.", "user": "Which religious group is the second largest with 150,000 members?", "assistant": "the Russian Orthodox Church"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: נתונים", "assistant": "data"}
+{"system": "Answer briefly and factually.", "user": "Who do contestants sing for in the second round of cuts during auditions?", "assistant": "producers"}
+{"system": "Act as a tiny SEO assistant.", "user": "Write a short meta description for a SEO guide.", "assistant": "Short practical overview of a SEO guide for readers who want a quick introduction."}
+{"system": "Act as a translation assistant.", "user": "Translate 'prompt' to Hebrew.", "assistant": "פרומפט"}
+{"system": "Respond in compact JSON.", "user": "Explain Search engine in JSON.", "assistant": "{\"topic\": \"Search engine\", \"summary\": \"A search engine is a software system that provides hyperlinks to web pages, and other relevant information on the Web in response to a user's query.\"}"}
+{"system": "Answer briefly and factually.", "user": "What is the lifestyle of hunter-gatherers?", "assistant": "nomadic or semi-nomadic"}
+{"system": "Answer briefly.", "user": "Hello", "assistant": "Hello. I am a tiny bilingual assistant."}
+{"system": "Answer briefly and factually.", "user": "What was the purpose of the dual carriageway?", "assistant": "to link the Kinsale Road roundabout with the city centre"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: ערב טוב", "assistant": "good evening"}
+{"system": "Answer briefly and factually.", "user": "Who led the American Idol band between seasons four and nine?", "assistant": "Rickey Minor"}
+{"system": "Answer briefly and factually.", "user": "What kind of poetry inspired Ottoman Divan Poetry?", "assistant": "Persian poetry"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: תודה", "assistant": "thank you"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את JSON ב-JSON.", "assistant": "{\"topic\": \"JSON\", \"summary\": \"JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך.\"}"}
+{"system": "Answer briefly and factually.", "user": "How many race options were there?", "assistant": "five enumerated races"}
+{"system": "Answer briefly in English.", "user": "Explain Translation in one sentence.", "assistant": "Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language')."}
+{"system": "Answer briefly.", "user": "שלום", "assistant": "שלום. אני עוזר דו-לשוני קטן להדגמה לימודית."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה עיבוד שפה טבעית?", "assistant": "עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות."}
+{"system": "Act as a translation assistant.", "user": "Translate 'AI' to Hebrew.", "assistant": "בינה מלאכותית"}
+{"system": "Answer briefly and factually.", "user": "Why did Chrysler discontinue use of the Hifi 16 2/3 rpm record?", "assistant": "poor performance"}
+{"system": "Answer briefly and factually.", "user": "Who was the head of the Hungarian government at the time of the revolt?", "assistant": "Imre Nagy"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה שיווק באמצעות תוכן.", "assistant": "שיווק באמצעות תוכן הוא סוג של שיווק שמתמקד בכתיבה, פרסום והפצה של תוכן לקהלי יעד שונים ברחבי האינטרנט."}
+{"system": "Answer briefly and factually.", "user": "What was the reception of Twilight Princess?", "assistant": "universal critical acclaim"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את נתונים ב-JSON.", "assistant": "{\"topic\": \"נתונים\", \"summary\": \"נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה.\"}"}
+{"system": "Answer briefly in English.", "user": "What is Search engine optimization?", "assistant": "Search engine optimization (SEO) is the practice of improving the visibility and performance of websites and web pages in search engine results pages (SERPs)."}
+{"system": "Respond in compact JSON.", "user": "Explain Digital marketing in JSON.", "assistant": "{\"topic\": \"Digital marketing\", \"summary\": \"Digital marketing is a component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media platforms to promote products and services.\"}"}
+{"system": "Answer briefly in English.", "user": "What is Translation?", "assistant": "Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language')."}
+{"system": "Respond in compact JSON only.", "user": "Explain AI in JSON", "assistant": "{\"topic\": \"AI\", \"summary\": \"AI is the field of building systems that perform tasks associated with human intelligence.\"}"}
+{"system": "Answer briefly and factually.", "user": "What is the average age of a Palermo resident?", "assistant": "40.4"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: תרגום", "assistant": "translation"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: תיאור", "assistant": "description"}
+{"system": "Answer briefly and factually.", "user": "Who were the two men that won the Nobel Prize in Physics with Feynman?", "assistant": "Julian Schwinger and Sin-Itiro Tomonaga"}
+{"system": "Answer briefly and factually.", "user": "Venus de Milo belongs to which period?", "assistant": "Hellenistic"}
+{"system": "Answer briefly and factually.", "user": "Who was arrested on April 26 for posting an online message?", "assistant": "A Macau resident"}
+{"system": "Answer briefly and factually.", "user": "What did most of Gondwana become when the polar ice melted?", "assistant": "desert"}
+{"system": "Answer briefly and factually.", "user": "How many Episcopal churches were in the Boston Metro area in 2010?", "assistant": "160"}
+{"system": "Act as a translation assistant.", "user": "Translate 'house' to Hebrew.", "assistant": "בית"}
+{"system": "Act as a tiny marketing assistant.", "user": "Write a short title for a AI article.", "assistant": "Clear Ai Article Guide"}
+{"system": "Answer briefly and factually.", "user": "What is common about the surviving mosaics from the 7th-9th centuries?", "assistant": "almost all represent Saint Demetrius"}
+{"system": "Answer briefly and factually.", "user": "What year did Southampton City Council link with Busan, South Korea?", "assistant": "1978"}
+{"system": "Act as a translation assistant.", "user": "Translate 'good morning' to Hebrew.", "assistant": "בוקר טוב"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את למידת מכונה ב-JSON.", "assistant": "{\"topic\": \"למידת מכונה\", \"summary\": \"למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה.\"}"}
+{"system": "Answer briefly in English.", "user": "Explain Marketing in one sentence.", "assistant": "Marketing is the act of acquiring, satisfying and retaining customers.It is one of the primary components of business management and commerce."}
+{"system": "Answer briefly and factually.", "user": "Who created and popularized many of the sports that we love today?", "assistant": "British Public schools and universities in the 19th century"}
+{"system": "Respond in compact JSON.", "user": "Explain Marketing in JSON.", "assistant": "{\"topic\": \"Marketing\", \"summary\": \"Marketing is the act of acquiring, satisfying and retaining customers.It is one of the primary components of business management and commerce.\"}"}
+{"system": "Answer briefly and factually.", "user": "What can Parliament supplement the amendment proposed by the citizens with?", "assistant": "a counter-proposal"}
+{"system": "Answer briefly and factually.", "user": "Where does 'The Kidnapping of Edgardo Mortara' take place?", "assistant": "Italy"}
+{"system": "Answer briefly and factually.", "user": "What actions did ISIL take against Western journalists and aid workers?", "assistant": "kidnapping and decapitation"}
+{"system": "Act as a translation assistant.", "user": "Translate 'title' to Hebrew.", "assistant": "כותרת"}
+{"system": "Answer briefly and factually.", "user": "Who ended discrimination against difference Christian sects in Portugal?", "assistant": "Sebastião de Melo"}
+{"system": "Answer briefly and factually.", "user": "Who did the Ming cut off all relations with?", "assistant": "the Karmapa hierarchs"}
+{"system": "Answer briefly and factually.", "user": "What are two of the top spiritual destination that Myanmar offers ?", "assistant": "Mon State, Pindaya, Bago and Hpa-An"}
+{"system": "Act as a translation assistant.", "user": "Translate 'good evening' to Hebrew.", "assistant": "ערב טוב"}
+{"system": "Respond in compact JSON.", "user": "Explain Advertising in JSON.", "assistant": "{\"topic\": \"Advertising\", \"summary\": \"Advertising is the practice and techniques employed to bring attention to a product or service.\"}"}
+{"system": "Answer briefly and factually.", "user": "Who was responsible for England's return to the use of gold as standard currency?", "assistant": "Churchill"}
+{"system": "Answer briefly and factually.", "user": "Who unsuccessfully attempted a rebellion against Richard's royal administrators?", "assistant": "John"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את ממשק משתמש ב-JSON.", "assistant": "{\"topic\": \"ממשק משתמש\", \"summary\": \"מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת.\"}"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה אתר אינטרנט.", "assistant": "אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט."}
+{"system": "Answer briefly in English.", "user": "Explain Machine learning in one sentence.", "assistant": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions."}
+{"system": "Answer briefly and factually.", "user": "When did Alan Turing write his paper about the basis for the stored-program computer?", "assistant": "1936"}
+{"system": "Answer briefly in English.", "user": "Explain Large language model in one sentence.", "assistant": "A large language model (LLM) is a computational model trained on a vast amount of data, designed for natural language processing tasks, especially language generation."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה תרגום.", "assistant": "תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה."}
+{"system": "Answer briefly and factually.", "user": "Who states imply that humans are their own Gods?", "assistant": "Feuerbach"}
+{"system": "Answer briefly in English.", "user": "Explain Data in one sentence.", "assistant": "Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally."}
+{"system": "Answer briefly and factually.", "user": "Maverick became a wholly owned subsidiary of which company?", "assistant": "Warner Music"}
+{"system": "Answer briefly and factually.", "user": "Where does Yale own 500 acres of athletic facilities?", "assistant": "western New Haven"}
+{"system": "Answer briefly and factually.", "user": "What year did free media outlets begin to expand?", "assistant": "2003"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את מודל שפה גדול ב-JSON.", "assistant": "{\"topic\": \"מודל שפה גדול\", \"summary\": \"מודל שפה גדול (באנגלית: Large Language Model; ראשי תיבות: LLM) היא ארכיטקטורה של למידה עמוקה לעיבוד, חיזוי וייצור של שפה אנושית.\"}"}
+{"system": "Answer briefly and factually.", "user": "These theorems have to assume what theory is correct?", "assistant": "general relativity"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: שיווק", "assistant": "marketing"}
+{"system": "Answer briefly and factually.", "user": "Along with Sarah McLachlan, Natalie Merchant, Melissa Etheridge and Sheryl Crow, what female singer-songwriter had chart success in the 1990s?", "assistant": "Jewel"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה למידת מכונה.", "assistant": "למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה."}
+{"system": "Answer briefly and factually.", "user": "Along with Egypt, Iraq and Sudan, what country's Arab nationalist government recognized the Libyan revolutionary government?", "assistant": "Syria"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: בינה מלאכותית", "assistant": "AI"}
+{"system": "Answer briefly in English.", "user": "What is Search engine?", "assistant": "A search engine is a software system that provides hyperlinks to web pages, and other relevant information on the Web in response to a user's query."}
+{"system": "Answer briefly and factually.", "user": "What body replaced the War Plans Division?", "assistant": "Operations Division"}
+{"system": "Act as a tiny marketing assistant.", "user": "Write a short title for a small business website.", "assistant": "Clear Small Business Website Guide"}
+{"system": "Respond in compact JSON.", "user": "Explain Chatbot in JSON.", "assistant": "{\"topic\": \"Chatbot\", \"summary\": \"A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech.\"}"}
+{"system": "Answer briefly and factually.", "user": "Who referred to 'Suez Syndrome'?", "assistant": "Margaret Thatcher"}
+{"system": "Answer briefly and factually.", "user": "What type of anthropology is used to solve specific problems?", "assistant": "Practical"}
+{"system": "Answer briefly and factually.", "user": "What is the proportionality voting referred to in Mexico City?", "assistant": "plurinominal deputies"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה מודל שפה גדול.", "assistant": "מודל שפה גדול (באנגלית: Large Language Model; ראשי תיבות: LLM) היא ארכיטקטורה של למידה עמוקה לעיבוד, חיזוי וייצור של שפה אנושית."}
+{"system": "Answer briefly and factually.", "user": "What doesnt conetemporary humanism believe about human nature?", "assistant": "purely good"}
+{"system": "Answer briefly in English.", "user": "Explain Advertising in one sentence.", "assistant": "Advertising is the practice and techniques employed to bring attention to a product or service."}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את שיווק ב-JSON.", "assistant": "{\"topic\": \"שיווק\", \"summary\": \"שיווק הוא מונח המתאר פעילות אשר מקדמת מכירה של מוצר (סחורה, שירות או רעיון).\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה מנוע חיפוש?", "assistant": "מנוע חיפוש הוא מערכת אחזור מידע שמטרתה לאתר מידע ברשת דיגיטלי מסוגים שונים (אתרי אינטרנט, קבצים או רשומות המייצגות פריטים פיזיים) המאוחסן במחשב או במערכת מידע."}
+{"system": "Answer briefly in English.", "user": "Explain Search engine optimization in one sentence.", "assistant": "Search engine optimization (SEO) is the practice of improving the visibility and performance of websites and web pages in search engine results pages (SERPs)."}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את שיווק באינטרנט ב-JSON.", "assistant": "{\"topic\": \"שיווק באינטרנט\", \"summary\": \"שיווק באינטרנט הוא שימוש באינטרנט לצורך שיווק, מיתוג, פרסום וקידום מכירות של מוצרים, שירותים ורעיונות.\"}"}
+{"system": "Answer briefly and factually.", "user": "What did the Radicals and Tories do that made Melbourne resign?", "assistant": "voted against a bill to suspend the constitution of Jamaica"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: מנוע חיפוש", "assistant": "search engine"}
+{"system": "Answer briefly and factually.", "user": "When did Mahayana sutras start to influence the behavior of mainstream buddhists in India?", "assistant": "after the 5th century CE"}
+{"system": "Answer briefly and factually.", "user": "Who is the Museo Soumaya named after?", "assistant": "the wife of Mexican magnate Carlos Slim"}
+{"system": "Answer briefly in English.", "user": "What is Website?", "assistant": "A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה בינה מלאכותית.", "assistant": "בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית."}
+{"system": "Answer briefly and factually.", "user": "When would the people on the custodial detention list be arrested?", "assistant": "in the event of war with Axis"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה אוטומציה.", "assistant": "אוטומציה (מיוונית עתיקה – \"פועל מעצמו\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם."}
+{"system": "Answer briefly and factually.", "user": "How many Chinese troops and medics were involved in the relief efforts?", "assistant": "135,000"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה בינה מלאכותית?", "assistant": "בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית."}
+{"system": "Answer briefly and factually.", "user": "What is the \"Land of Israel\" known as in Hebrew?", "assistant": "Eretz Yisrael"}
+{"system": "Answer briefly and factually.", "user": "If you desired to project radio waves to the south, what part of the antenna would you build larger in that direction?", "assistant": "lobe"}
+{"system": "Answer briefly in English.", "user": "Explain Chatbot in one sentence.", "assistant": "A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech."}
+{"system": "Answer briefly and factually.", "user": "What is referred to as \"junk DNA\"?", "assistant": "DNA without an identified function"}
+{"system": "Answer briefly in English.", "user": "What is User interface?", "assistant": "In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur."}
+{"system": "Act as a translation assistant.", "user": "Translate 'thank you' to Hebrew.", "assistant": "תודה"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה שיווק באינטרנט.", "assistant": "שיווק באינטרנט הוא שימוש באינטרנט לצורך שיווק, מיתוג, פרסום וקידום מכירות של מוצרים, שירותים ורעיונות."}
+{"system": "Answer briefly and factually.", "user": "When did Watch Tower supporters gather as autonomous congregations to study the Bible?", "assistant": "From 1879"}
+{"system": "Answer briefly and factually.", "user": "When did the Black Death end?", "assistant": "1350"}
+{"system": "Act as a tiny SEO assistant.", "user": "Write a short meta description for a blog about machine learning.", "assistant": "Short practical overview of a blog about machine learning for readers who want a quick introduction."}
+{"system": "Answer briefly and factually.", "user": "What dialect did Alfred's government use?", "assistant": "West Saxon"}
+{"system": "Answer briefly and factually.", "user": "What percentage of the New York City population is Japanese?", "assistant": "0.3%"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את אוטומציה ב-JSON.", "assistant": "{\"topic\": \"אוטומציה\", \"summary\": \"אוטומציה (מיוונית עתיקה – \\\"פועל מעצמו\\\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם.\"}"}
+{"system": "Act as a translation assistant.", "user": "Translate 'hello' to Hebrew.", "assistant": "שלום"}
+{"system": "Answer briefly in English.", "user": "Explain Automation in one sentence.", "assistant": "Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines."}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את מנוע חיפוש ב-JSON.", "assistant": "{\"topic\": \"מנוע חיפוש\", \"summary\": \"מנוע חיפוש הוא מערכת אחזור מידע שמטרתה לאתר מידע ברשת דיגיטלי מסוגים שונים (אתרי אינטרנט, קבצים או רשומות המייצגות פריטים פיזיים) המאוחסן במחשב או במערכת מידע.\"}"}
+{"system": "Answer briefly in English.", "user": "What is JSON?", "assistant": "JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values)."}
+{"system": "Act as a translation assistant.", "user": "Translate 'SEO' to Hebrew.", "assistant": "קידום אתרים"}
+{"system": "Act as a translation assistant.", "user": "Translate 'marketing' to Hebrew.", "assistant": "שיווק"}
+{"system": "Answer briefly and factually.", "user": "To what religion is Boudhanath holy?", "assistant": "Buddhist"}
+{"system": "Answer briefly in English.", "user": "Explain Natural language processing in one sentence.", "assistant": "Natural language processing (NLP) is the processing of natural language information by a computer."}
+{"system": "Answer briefly and factually.", "user": "What are CDO as related to the housing and credit booms?", "assistant": "collateralized debt obligations"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה מודל שפה גדול?", "assistant": "מודל שפה גדול (באנגלית: Large Language Model; ראשי תיבות: LLM) היא ארכיטקטורה של למידה עמוקה לעיבוד, חיזוי וייצור של שפה אנושית."}
+{"system": "Act as a tiny SEO assistant.", "user": "Write a short meta description for a marketing automation tool.", "assistant": "Short practical overview of a marketing automation tool for readers who want a quick introduction."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה שיווק?", "assistant": "שיווק הוא מונח המתאר פעילות אשר מקדמת מכירה של מוצר (סחורה, שירות או רעיון)."}
+{"system": "Answer briefly and factually.", "user": "Who initially lit the Olympic Torch?", "assistant": "Maria Nafpliotou"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה שיווק באינטרנט?", "assistant": "שיווק באינטרנט הוא שימוש באינטרנט לצורך שיווק, מיתוג, פרסום וקידום מכירות של מוצרים, שירותים ורעיונות."}
+{"system": "Respond in compact JSON.", "user": "Explain Computer in JSON.", "assistant": "{\"topic\": \"Computer\", \"summary\": \"A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation).\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה שיווק באמצעות תוכן?", "assistant": "שיווק באמצעות תוכן הוא סוג של שיווק שמתמקד בכתיבה, פרסום והפצה של תוכן לקהלי יעד שונים ברחבי האינטרנט."}
+{"system": "Answer briefly in English.", "user": "Explain Computer in one sentence.", "assistant": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation)."}
+{"system": "Answer briefly in English.", "user": "Explain Website in one sentence.", "assistant": "A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה JSON.", "assistant": "JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך."}
+{"system": "Answer briefly and factually.", "user": "What is the name of the hospital in West Raleigh?", "assistant": "Rex Hospital."}
+{"system": "Answer briefly and factually.", "user": "What provides the absolute frame of reference within which objects can have motion?", "assistant": "Newtonian space"}
+{"system": "Answer briefly in English.", "user": "What is Data?", "assistant": "Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה אתר אינטרנט?", "assistant": "אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט."}
+{"system": "Answer briefly and factually.", "user": "Where is the Schwarzenegger restaurant located?", "assistant": "Santa Monica"}
+{"system": "Answer briefly and factually.", "user": "What official body recognizes both Canis lupus and Canis familiaris?", "assistant": "ICZN"}
+{"system": "Answer briefly and factually.", "user": "In a June 2008 speech, Timoty Geithner placed blame for credit market freezing on which system?", "assistant": "\"parallel\" banking system"}
+{"system": "ענה ב-JSON קומפקטי.", "user": "תסביר את אתר אינטרנט ב-JSON.", "assistant": "{\"topic\": \"אתר אינטרנט\", \"summary\": \"אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט.\"}"}
+{"system": "Answer briefly.", "user": "מה אתה יודע לעשות?", "assistant": "אני יכול לענות בקצרה, לתרגם בין אנגלית לעברית, ולהסביר מושגים בסיסיים."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: שלום", "assistant": "hello"}
+{"system": "Answer briefly and factually.", "user": "Who designed MP3?", "assistant": "Moving Picture Experts Group"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: מחשב", "assistant": "computer"}
+{"system": "Answer briefly and factually.", "user": "What term is it customary to use instead of subspecies?", "assistant": "race"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה ממשק משתמש.", "assistant": "מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת."}
+{"system": "Answer briefly in English.", "user": "What is Large language model?", "assistant": "A large language model (LLM) is a computational model trained on a vast amount of data, designed for natural language processing tasks, especially language generation."}
+{"system": "Answer briefly and factually.", "user": "Did 9/11 lead to more FBI oversight?", "assistant": "acceded to most of the recommendations, including oversight"}
+{"system": "Act as a translation assistant.", "user": "Translate 'content' to Hebrew.", "assistant": "תוכן"}
+{"system": "Act as a translation assistant.", "user": "Translate 'computer' to Hebrew.", "assistant": "מחשב"}
+{"system": "Answer briefly in English.", "user": "Explain Content marketing in one sentence.", "assistant": "Content marketing is a form of marketing focused on creating, publishing, and distributing content for a targeted audience online."}
+{"system": "Respond in compact JSON.", "user": "Explain Large language model in JSON.", "assistant": "{\"topic\": \"Large language model\", \"summary\": \"A large language model (LLM) is a computational model trained on a vast amount of data, designed for natural language processing tasks, especially language generation.\"}"}
+{"system": "Answer briefly in English.", "user": "What is Chatbot?", "assistant": "A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech."}
+{"system": "Answer briefly and factually.", "user": "Is there anyone automatically eligible?", "assistant": ". All clubs in the top four levels (the Premier League and the three divisions of the Football League) are automatically eligible"}
+{"system": "Answer briefly in English.", "user": "Explain Search engine in one sentence.", "assistant": "A search engine is a software system that provides hyperlinks to web pages, and other relevant information on the Web in response to a user's query."}
+{"system": "Answer briefly in English.", "user": "What is Advertising?", "assistant": "Advertising is the practice and techniques employed to bring attention to a product or service."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה צ'אטבוט.", "assistant": "צ'אטבוט ולעיתים צ'טבוט (באנגלית: chatbot) הוא תוכנה המתמחה בניהול שיחות טקסטואליות."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: אתר", "assistant": "website"}
+{"system": "Act as a translation assistant.", "user": "Translate 'translation' to Hebrew.", "assistant": "תרגום"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: פרומפט", "assistant": "prompt"}
+{"system": "Respond in compact JSON.", "user": "Explain Natural language processing in JSON.", "assistant": "{\"topic\": \"Natural language processing\", \"summary\": \"Natural language processing (NLP) is the processing of natural language information by a computer.\"}"}
+{"system": "Respond in compact JSON.", "user": "Explain Data in JSON.", "assistant": "{\"topic\": \"Data\", \"summary\": \"Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally.\"}"}
+{"system":"Answer briefly.","user":"Hello","assistant":"Hello. I am a tiny bilingual assistant."}
+{"system":"Act as a translation assistant.","user":"Translate 'house' to Hebrew","assistant":"בית"}
+{"system":"Answer briefly in Hebrew.","user":"מה זה SEO?","assistant":"SEO הוא תהליך של שיפור נראות אתר במנועי חיפוש."}
+{"system":"Answer briefly in English.","user":"What is SEO?","assistant":"SEO is the practice of improving a website so it can appear more clearly in search results."}
+{"system":"Answer briefly in English.","user":"What is AI?","assistant":"AI is the field of building systems that perform tasks associated with human intelligence."}
+{"system":"ענה בקצרה.","user":"מה זה בינה מלאכותית?","assistant":"בינה מלאכותית היא תחום שבונה מערכות שמבצעות משימות הקשורות לאינטליגנציה אנושית."}
+{"system":"Respond in compact JSON only.","user":"Explain AI in JSON","assistant":"{\"topic\":\"AI\",\"summary\":\"AI is the field of building systems that perform tasks associated with human intelligence.\"}"}
+{"system":"Act as a tiny SEO assistant.","user":"Write a short meta description for an AI article","assistant":"Short clear meta description about AI basics, use cases, and why the topic matters."}

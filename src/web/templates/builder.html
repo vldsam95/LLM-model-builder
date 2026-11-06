@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiny Model Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="builder-body">
+    <div class="site-page">
+      {% include "_site_header.html" %}
+      <div class="site-page-content">
+        <main class="builder-shell">
+          <section class="builder-form-panel">
+            <div class="builder-hero-card">
+              <p class="eyebrow">Custom Tiny Model Builder</p>
+              <h1>בילדר למודלים מותאמים</h1>
+              <p class="muted">
+                תשתית גרפית כללית ליצירת tiny language models וגם מודלי חיזוי טבלאיים על אותו VPS.
+                ברירת המחדל כאן ניטרלית ואינה תלויה ב-SEO או marketing. המיקוד הוא בפתרונות CPU-friendly, ברורים, וברי-הדגמה.
+              </p>
+            </div>
+
+            <form id="builderForm" class="builder-form" enctype="multipart/form-data">
+              <div class="builder-grid-two">
+                <label>
+                  <span>Project Name</span>
+                  <input name="name" required placeholder="Flight Delay Predictor">
+                </label>
+                <label>
+                  <span>Slug</span>
+                  <input name="slug" placeholder="flight-delay-predictor">
+                </label>
+              </div>
+
+              <div class="builder-grid-two">
+                <label>
+                  <span>Project Family</span>
+                  <select id="projectFamilySelect" name="project_family">
+                    {% for item in project_families %}
+                    <option value="{{ item.value }}">{{ item.label }}</option>
+                    {% endfor %}
+                  </select>
+                </label>
+                <label>
+                  <span>Specialization</span>
+                  <input name="specialization" placeholder="Flight delays, airport operations, ETA prediction">
+                </label>
+              </div>
+
+              <label>
+                <span>Description</span>
+                <textarea name="description" rows="2" placeholder="Short internal note about the project goal."></textarea>
+              </label>
+
+              <section id="languageModelSection" class="builder-family-section">
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Profile</span>
+                    <select id="profileSelect" name="profile">
+                      <option value="general_assistant">General Tiny Assistant</option>
+                      <option value="extraction_json">Extraction / JSON Schema Builder</option>
+                      <option value="internal_knowledge">FAQ / Internal Knowledge Assistant</option>
+                      <option value="classification_scoring">Classification / Scoring Mini-Model</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Build Mode</span>
+                    <select id="buildModeSelect" name="build_mode">
+                      <option value="fast_adapter">Fast Adapter (Recommended)</option>
+                      <option value="from_scratch_tiny">From Scratch Tiny</option>
+                    </select>
+                  </label>
+                </div>
+
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Language Mode</span>
+                    <select name="language_mode">
+                      <option value="bilingual">Bilingual</option>
+                      <option value="english">English</option>
+                      <option value="hebrew">Hebrew</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>Base Checkpoint</span>
+                    <select name="base_checkpoint">
+                      {% for checkpoint in base_checkpoints %}
+                      <option value="{{ checkpoint }}" {% if checkpoint == default_base_checkpoint %}selected{% endif %}>{{ checkpoint }}</option>
+                      {% endfor %}
+                    </select>
+                  </label>
+                </div>
+
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Foundation Pack</span>
+                    <select name="foundation_pack">
+                      {% for pack in foundation_packs %}
+                      <option value="{{ pack.value }}">{{ pack.label }}</option>
+                      {% endfor %}
+                    </select>
+                  </label>
+                  <label>
+                    <span>Model Size Preset</span>
+                    <select name="model_size">
+                      {% for preset in model_presets %}
+                      <option value="{{ preset.value }}">{{ preset.label }}</option>
+                      {% endfor %}
+                    </select>
+                  </label>
+                </div>
+
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Sequence Length</span>
+                    <input name="sequence_length" type="number" value="128" min="64" max="256" step="32">
+                  </label>
+                  <label>
+                    <span>Vocab Size</span>
+                    <input name="vocab_size" type="number" value="3200" min="800" max="6400" step="200">
+                  </label>
+                </div>
+
+                <label>
+                  <span>Topics / Keywords</span>
+                  <textarea name="topics" rows="2" placeholder="mortgage, appraisal, listing, closing costs"></textarea>
+                </label>
+
+                <label>
+                  <span>System Prompt</span>
+                  <textarea name="system_prompt" rows="3" placeholder="Optional. Leave empty for a neutral default."></textarea>
+                </label>
+
+                <div id="schemaFieldsWrap" class="builder-conditional">
+                  <label>
+                    <span>Schema Fields</span>
+                    <textarea name="schema_fields" rows="2" placeholder="customer_name, product, renewal_date"></textarea>
+                  </label>
+                </div>
+
+                <div id="labelFieldsWrap" class="builder-grid-two builder-conditional">
+                  <label>
+                    <span>Label Options</span>
+                    <textarea name="label_options" rows="2" placeholder="hot_lead, warm_lead, low_priority"></textarea>
+                  </label>
+                  <label>
+                    <span>Scoring Scale</span>
+                    <input name="scoring_scale" value="1-5" placeholder="1-5">
+                  </label>
+                </div>
+
+                <label>
+                  <span>Raw Text / Notes / Source Content</span>
+                  <textarea name="raw_text" rows="8" placeholder="Paste domain notes, internal documentation, summaries, FAQs, product docs, knowledge snippets, etc."></textarea>
+                </label>
+
+                <label>
+                  <span>URLs To Import</span>
+                  <textarea name="urls" rows="3" placeholder="One URL per line. The builder will fetch visible page text and include it in the project corpus."></textarea>
+                </label>
+
+                <label>
+                  <span>Custom Dialogues JSONL</span>
+                  <textarea name="custom_dialogues" rows="5" placeholder='{"system":"...","user":"...","assistant":"..."}'></textarea>
+                </label>
+
+                <label>
+                  <span>Upload Files</span>
+                  <input name="files" type="file" multiple>
+                </label>
+              </section>
+
+              <section id="predictiveSection" class="builder-family-section builder-conditional is-hidden">
+                <div class="builder-family-intro">
+                  <strong>Predictive AI Builder</strong>
+                  <p>
+                    מסלול זה מיועד למודלי חיזוי טבלאיים על CSV/XLSX. הוא פשוט יותר מ־LLM, בדרך כלל מדויק ומהיר יותר על CPU,
+                    ומתאים במיוחד ל־delay prediction, lead scoring, churn, demand forecasting, risk scoring ועוד.
+                  </p>
+                </div>
+
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Predictive Task</span>
+                    <select id="predictiveTaskSelect" name="predictive_task">
+                      {% for item in predictive_tasks %}
+                      <option value="{{ item.value }}">{{ item.label }}</option>
+                      {% endfor %}
+                    </select>
+                  </label>
+                  <label id="forecastHorizonWrap">
+                    <span>Forecast Horizon</span>
+                    <input name="forecast_horizon" type="number" value="3" min="1" max="48" step="1">
+                  </label>
+                </div>
+
+                <div class="builder-grid-two">
+                  <label>
+                    <span>Target Column</span>
+                    <input name="target_column" placeholder="delay_minutes">
+                  </label>
+                  <label>
+                    <span>Time Column</span>
+                    <input name="time_column" placeholder="scheduled_departure">
+                  </label>
+                </div>
+
+                <label>
+                  <span>Feature Columns</span>
+                  <textarea name="feature_columns" rows="2" placeholder="carrier, origin, destination, dep_hour, weather_score, previous_leg_delay"></textarea>
+                </label>
+
+                <label>
+                  <span>Dataset File (CSV / XLSX)</span>
+                  <input name="dataset_file" type="file" accept=".csv,.xlsx,.xlsm">
+                </label>
+
+                <label>
+                  <span>Business Notes / Assumptions</span>
+                  <textarea name="predictive_notes" rows="5" placeholder="Optional notes for documentation: data meaning, KPI target, business constraints, how to interpret predictions, etc."></textarea>
+                </label>
+
+                <label>
+                  <span>Supporting Files</span>
+                  <input name="supporting_files" type="file" multiple>
+                </label>
+
+                <p class="builder-note">
+                  ל־classification / regression אפשר להשאיר את `Time Column` ריק. ל־forecasting צריך `Time Column` תקין.
+                  במקרים כמו חיזוי עיכובי טיסות, לרוב `regression` או `classification` יהיו פשוטים ופרקטיים יותר ממודל שפה.
+                </p>
+              </section>
+
+              <div class="builder-actions">
+                <button id="saveProjectBtn" type="submit">Create / Update Project</button>
+                <button id="resetBuilderBtn" class="ghost" type="button">Clear Form</button>
+              </div>
+              <p class="builder-note">
+                `Fast Adapter` מתאים מודל קיים וניטרלי במהירות. `From Scratch Tiny` בונה tokenizer + pretrain + domain + SFT לפרויקט חדש.
+                במסלול `Predictive AI` אין צורך ב-tokenizer או checkpoint של LLM; זה pipeline טבלאי מהיר ומקצועי יותר.
+              </p>
+            </form>
+
+            <div class="builder-dashboard-card">
+              <div class="builder-dashboard-head">
+                <div>
+                  <p class="eyebrow">Examples</p>
+                  <h2>דוגמאות לפי פרופיל</h2>
+                </div>
+              </div>
+              <div class="builder-example-grid">
+                {% for example in profile_examples %}
+                <article class="builder-example-card" data-profile-card="{{ example.profile }}">
+                  <h3>{{ example.title }}</h3>
+                  <p>{{ example.summary }}</p>
+                  <div class="builder-example-block">
+                    <strong>Example Input</strong>
+                    <pre>{{ example.sample_input }}</pre>
+                  </div>
+                  <div class="builder-example-block">
+                    <strong>Example Output</strong>
+                    <pre>{{ example.sample_output }}</pre>
+                  </div>
+                </article>
+                {% endfor %}
+              </div>
+            </div>
+          </section>
+
+          <section class="builder-dashboard-panel">
+            <div class="builder-dashboard-card">
+              <div class="builder-dashboard-head">
+                <div>
+                  <p class="eyebrow">Projects</p>
+                  <h2>פרויקטים קיימים</h2>
+                </div>
+                <button id="refreshProjectsBtn" class="ghost" type="button">Refresh</button>
+              </div>
+              <div id="projectList" class="builder-project-list"></div>
+            </div>
+
+            <div class="builder-dashboard-card">
+              <div class="builder-dashboard-head">
+                <div>
+                  <p class="eyebrow">Project Detail</p>
+                  <h2 id="projectTitle">בחר פרויקט</h2>
+                </div>
+                <div class="builder-detail-actions">
+                  <button id="trainProjectBtn" type="button">Run Training</button>
+                  <button id="reviewDatasetBtn" class="ghost" type="button">Review Dataset</button>
+                  <button id="refreshStatusBtn" class="ghost" type="button">Refresh Status</button>
+                  <a id="openProjectChatLink" class="ghost link-btn disabled-link" href="#" target="_blank" rel="noreferrer">Open Chat</a>
+                </div>
+              </div>
+              <div id="projectMeta" class="builder-meta-grid"></div>
+              <pre id="projectLog" class="builder-log">(no project selected)</pre>
+            </div>
+
+            <div class="builder-dashboard-card">
+              <div class="builder-dashboard-head">
+                <div>
+                  <p class="eyebrow">Dataset Review</p>
+                  <h2>Quality Wizard</h2>
+                </div>
+                <span id="reviewBadge" class="builder-status-pill status-idle">Not Loaded</span>
+              </div>
+              <div id="datasetReviewContent" class="builder-review-panel">
+                <div class="builder-empty">Select a predictive project to review its dataset.</div>
+              </div>
+            </div>
+
+            <div class="builder-dashboard-card">
+              <div class="builder-dashboard-head">
+                <div>
+                  <p class="eyebrow">Model Catalog</p>
+                  <h2>Checkpoint Registry</h2>
+                </div>
+                <button id="refreshModelsBtn" class="ghost" type="button">Refresh</button>
+              </div>
+              <p class="builder-note">
+                זהו registry פנימי של checkpoints מקומיים. הוא מרכז base models ופרויקטים שנבנו כאן.
+                זה לא runtime container בסגנון Ollama, אבל כן נותן מקום אחד לנהל ממנו מודלים קיימים, כולל artifacts של predictive AI.
+              </p>
+              <div id="modelCatalog" class="builder-model-grid"></div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script>
+      window.BUILDER_BOOTSTRAP = {
+        projects: {{ projects|tojson }},
+        models: {{ model_catalog|tojson }},
+      };
+    </script>
+    <script src="{{ url_for('static', filename='site.js') }}"></script>
+    <script src="{{ url_for('static', filename='builder.js') }}"></script>
+  </body>
+</html>

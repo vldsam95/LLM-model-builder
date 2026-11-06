@@ -1,0 +1,40 @@
+{
+  "name": "Lead Scoring Demo",
+  "slug": "lead-scoring-demo",
+  "description": "Classify short incoming messages by urgency and sales intent.",
+  "specialization": "lead scoring and triage for short inbound text",
+  "profile": "classification_scoring",
+  "build_mode": "fast_adapter",
+  "language_mode": "english",
+  "foundation_pack": "general_open_pack",
+  "model_size": "safe_6m",
+  "topics": [
+    "pricing",
+    "demo",
+    "contract"
+  ],
+  "schema_fields": [],
+  "label_options": [
+    "hot_lead",
+    "warm_lead",
+    "low_priority"
+  ],
+  "scoring_scale": "1-5",
+  "system_prompt": "Classify the message and return compact JSON only.",
+  "base_checkpoint": "checkpoints/tiny_cpu_builder_base/best.pt",
+  "tokenizer_model": "tokenizer/tiny_bilingual.model",
+  "sequence_length": 128,
+  "vocab_size": 3200,
+  "created_at": "2026-03-15T20:38:23.959333+00:00",
+  "updated_at": "2026-03-15T20:38:23.959358+00:00",
+  "url_records": [],
+  "uploaded_files": [],
+  "stats": {
+    "raw_text_chars": 189,
+    "pretrain_en_chars": 189,
+    "pretrain_he_chars": 0,
+    "seed_dialogues": 10,
+    "custom_dialogues": 1,
+    "final_dialogues": 11
+  }
+}

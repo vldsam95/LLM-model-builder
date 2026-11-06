@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ project.name }} | Predictive Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="builder-body">
+    <div class="site-page">
+      {% include "_site_header.html" %}
+      <div class="site-page-content">
+        <main class="predictive-shell">
+          <aside class="predictive-sidebar">
+            <p class="eyebrow">Predictive AI Project</p>
+            <h1>{{ project.name }}</h1>
+            <p class="muted">{{ project.description or project.specialization }}</p>
+
+            <div class="predictive-summary-card">
+              <span>Task</span>
+              <strong>{{ project.predictive_task or "predictive" }}</strong>
+              <span>Target</span>
+              <strong>{{ project.target_column or "-" }}</strong>
+              <span>Rows</span>
+              <strong>{{ project.stats.dataset_rows or project.dataset_overview.rows or 0 }}</strong>
+              <span>Columns</span>
+              <strong>{{ project.stats.dataset_columns or project.dataset_overview.columns or 0 }}</strong>
+            </div>
+
+            <div class="predictive-summary-card">
+              <span>AI Summary</span>
+              <p>{{ project.evaluation_summary or "Train the project to generate a predictive summary and metrics." }}</p>
+            </div>
+
+            <div class="predictive-sidebar-actions">
+              <a class="ghost link-btn" href="/builder">Back To Builder</a>
+              {% if project.dataset_path %}
+              <code>{{ project.dataset_path }}</code>
+              {% endif %}
+            </div>
+          </aside>
+
+          <section class="predictive-main">
+            <section class="predictive-panel">
+              <div class="predictive-panel-head">
+                <div>
+                  <p class="eyebrow">Metrics</p>
+                  <h2>Model Health</h2>
+                </div>
+              </div>
+              <div id="predictiveMetrics" class="predictive-metric-grid"></div>
+            </section>
+
+            <section class="predictive-grid">
+              <section class="predictive-panel">
+                <div class="predictive-panel-head">
+                  <div>
+                    <p class="eyebrow">Feature Importance</p>
+                    <h2>What Drives The Prediction</h2>
+                  </div>
+                </div>
+                <div id="featureImportance" class="predictive-importance-list"></div>
+              </section>
+
+              <section class="predictive-panel">
+                <div class="predictive-panel-head">
+                  <div>
+                    <p class="eyebrow">Validation Chart</p>
+                    <h2>Actual vs Predicted</h2>
+                  </div>
+                </div>
+                <div id="predictiveChart" class="predictive-chart-wrap"></div>
+              </section>
+            </section>
+
+            <section id="confusionWrap" class="predictive-panel is-hidden">
+              <div class="predictive-panel-head">
+                <div>
+                  <p class="eyebrow">Classification</p>
+                  <h2>Confusion Matrix</h2>
+                </div>
+              </div>
+              <div id="confusionMatrix"></div>
+            </section>
+
+            <section class="predictive-grid predictive-grid-wide">
+              <section class="predictive-panel">
+                <div class="predictive-panel-head">
+                  <div>
+                    <p class="eyebrow">Prediction Playground</p>
+                    <h2>Test A New Case</h2>
+                  </div>
+                </div>
+                <form id="predictiveForm" class="predictive-form">
+                  <div id="predictiveInputGrid" class="predictive-input-grid"></div>
+                  <div class="builder-actions">
+                    <button id="predictiveRunBtn" type="submit">Run Prediction</button>
+                  </div>
+                </form>
+                <pre id="predictiveResult" class="builder-log">(prediction output will appear here)</pre>
+              </section>
+
+              <section class="predictive-panel">
+                <div class="predictive-panel-head">
+                  <div>
+                    <p class="eyebrow">Examples</p>
+                    <h2>Validation Samples</h2>
+                  </div>
+                </div>
+                <div id="predictionSamples" class="predictive-table-wrap"></div>
+              </section>
+            </section>
+
+            <section id="forecastWrap" class="predictive-panel is-hidden">
+              <div class="predictive-panel-head">
+                <div>
+                  <p class="eyebrow">Forecast Preview</p>
+                  <h2>Next Periods</h2>
+                </div>
+              </div>
+              <div id="forecastTable" class="predictive-table-wrap"></div>
+            </section>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script>
+      window.PREDICTIVE_BOOTSTRAP = {
+        project: {{ project|tojson }},
+        evaluation: {{ evaluation|tojson }},
+      };
+    </script>
+    <script src="{{ url_for('static', filename='site.js') }}"></script>
+    <script src="{{ url_for('static', filename='predictive_dashboard.js') }}"></script>
+  </body>
+</html>
+

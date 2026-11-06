@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Docs | Tiny Bilingual Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="docs-body">
+    <div class="site-page">
+      {% include "_site_header.html" %}
+      <div class="site-page-content">
+        <main class="docs-shell">
+          <header class="docs-hero">
+            <div class="hero-copy">
+              <p class="eyebrow">Project Documentation</p>
+              <h1>איך המערכת הזו נבנתה</h1>
+              <p class="hero-text">
+                עמוד דוקומנטציה פנימי שמסביר את ה-pipeline, מה זה SFT, איך tokenization עובד,
+                על איזה מקורות נתונים הפרויקט נשען, ואיך לבחור checkpoint נכון בדמו.
+              </p>
+            </div>
+            <div class="hero-metrics">
+              <div class="metric-card">
+                <span>Hardware</span>
+                <strong>8 vCPU / 23 GiB RAM</strong>
+              </div>
+              <div class="metric-card">
+                <span>Model Size</span>
+                <strong>~5.6M parameters</strong>
+              </div>
+              <div class="metric-card">
+                <span>Tokenizer</span>
+                <strong>SentencePiece / 3200</strong>
+              </div>
+              <div class="metric-card">
+                <span>Target</span>
+                <strong>CPU-only demo</strong>
+              </div>
+            </div>
+          </header>
+
+          <section class="docs-section">
+        <div class="section-head">
+          <p class="eyebrow">Pipeline</p>
+          <h2>אינפוגרפיקה: מה עובר כל prompt בדרך</h2>
+        </div>
+        <div class="pipeline-grid">
+          {% for step in pipeline_steps %}
+          <article class="pipeline-card" style="--card-accent: {{ step.accent }}; --delay: {{ loop.index0 }};">
+            <div class="pipeline-badge">{{ loop.index }}</div>
+            <h3>{{ step.title }}</h3>
+            <p>{{ step.summary }}</p>
+            <div class="pipeline-metric">{{ step.metric }}</div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+          <section class="docs-section split-two">
+        <article class="docs-card">
+          <p class="eyebrow">Tokenization</p>
+          <h2>מה זה Tokenization כאן</h2>
+          <p>
+            המודל לא קורא טקסט ישירות. קודם SentencePiece מפרק כל משפט ל-tokenים. בגלל שהפרויקט דו-לשוני,
+            אותו vocabulary משותף גם לאנגלית וגם לעברית.
+          </p>
+          <div class="token-chip-row">
+            {% for token in special_tokens %}
+            <span class="token-chip">{{ token }}</span>
+            {% endfor %}
+          </div>
+          <p class="docs-note">
+            המשמעות המעשית: vocabulary קטן מדי יפצל טקסט ליותר מדי חתיכות, vocabulary גדול מדי יכביד על המודל הקטן.
+            לכן נבחר גודל של 3200.
+          </p>
+        </article>
+
+        <article class="docs-card">
+          <p class="eyebrow">SFT / STP</p>
+          <h2>מהו שלב ה-SFT / STP</h2>
+          <p>
+            כאן המודל לומד התנהגות של assistant. הוא מקבל דוגמאות JSONL עם שדות
+            <code>system</code>, <code>user</code>, <code>assistant</code>.
+          </p>
+          <p class="docs-note">
+            אם אתה משתמש במונח STP, בפרויקט הזה הכוונה המעשית היא לאותו supervised tuning phase:
+            שלב ההוראה המפוקחת שבו המודל לומד איך לענות, לא רק איך להמשיך טקסט.
+          </p>
+          <div class="formula-card">
+            <div class="formula-row"><span>Prompt</span><strong>&lt;sys&gt; + &lt;user&gt; + &lt;assistant&gt;</strong></div>
+            <div class="formula-row"><span>Loss</span><strong>רק על טוקני התשובה של ה-assistant</strong></div>
+          </div>
+          <p class="docs-note">
+            זה חשוב מאוד: ה-loss לא מחושב על ה-system ולא על ה-user. זה מה שגורם למודל ללמוד לענות,
+            ולא רק לשחזר את כל ה-prompt.
+          </p>
+        </article>
+      </section>
+
+          <section class="docs-section split-two">
+        <article class="docs-card">
+          <p class="eyebrow">Training Ladder</p>
+          <h2>תהליך האימון</h2>
+          <div class="ladder-list">
+            {% for item in training_stages %}
+            <div class="ladder-item">
+              <div class="ladder-head">
+                <strong>{{ item.name }}</strong>
+                <span>{{ item.value }}</span>
+              </div>
+              <div class="ladder-bar">
+                <div class="ladder-bar-fill" style="--bar-width: {{ item.width }};"></div>
+              </div>
+              <p>{{ item.text }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </article>
+
+        <article class="docs-card">
+          <p class="eyebrow">Data Sources</p>
+          <h2>מקורות המידע</h2>
+          <div class="source-list">
+            {% for source in sources %}
+            <article class="source-card">
+              <h3>{{ source.name }}</h3>
+              <p class="mono-lite">{{ source.url }}</p>
+              <p>{{ source.license_note }}</p>
+            </article>
+            {% endfor %}
+          </div>
+        </article>
+      </section>
+
+          <section class="docs-section">
+        <div class="section-head">
+          <p class="eyebrow">Checkpoints</p>
+          <h2>מה המשמעות של כל mode ב-Checkpoint selector</h2>
+        </div>
+        <div class="checkpoint-grid">
+          {% for checkpoint in checkpoints %}
+          <article class="checkpoint-card {% if checkpoint.badge == 'Recommended' %}recommended{% endif %}">
+            <div class="checkpoint-topline">
+              <span class="checkpoint-stage">{{ checkpoint.stage }}</span>
+              <span class="checkpoint-badge">{{ checkpoint.badge }}</span>
+            </div>
+            <h3>{{ checkpoint.label }}</h3>
+            <p class="mono-lite">{{ checkpoint.path }}</p>
+            <p>{{ checkpoint.description }}</p>
+            <p class="checkpoint-usage"><strong>מתי להשתמש:</strong> {{ checkpoint.use_case }}</p>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+          <section class="docs-section split-two">
+        <article class="docs-card">
+          <p class="eyebrow">UI Controls</p>
+          <h2>הגדרות בדמו</h2>
+          <div class="control-list">
+            <div class="control-card">
+              <strong>System Instruction</strong>
+              <p>אות soft conditioning קטן. במודל tiny הוא משפיע, אבל לא כמו ב-LLMs גדולים.</p>
+            </div>
+            <div class="control-card">
+              <strong>Temperature / Top-K</strong>
+              <p>שולטים ברמת הדטרמיניזם מול גיוון. לדמו יציב מומלץ לעבוד סביב `0.4-0.8`.</p>
+            </div>
+            <div class="control-card">
+              <strong>JSON Mode</strong>
+              <p>מכוון את ה-prompt לתשובה בפורמט JSON קומפקטי, ללא structured decoding קשיח.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="docs-card">
+          <p class="eyebrow">Presets</p>
+          <h2>מצבי הדגמה מהירים</h2>
+          <div class="preset-doc-list">
+            {% for preset in presets %}
+            <div class="preset-doc-card">
+              <strong>{{ preset.name }}</strong>
+              <p>{{ preset.system }}</p>
+            </div>
+            {% endfor %}
+          </div>
+          <p class="docs-note">
+            בפועל, לדמו מומלץ לשלב preset מתאים עם `checkpoints/tiny_cpu_sft_demo_boosted/best.pt`.
+          </p>
+        </article>
+      </section>
+
+          <section class="docs-section split-two">
+        <article class="docs-card">
+          <p class="eyebrow">Builder Profiles</p>
+          <h2>פרופילי ה-builder החדשים</h2>
+          <div class="preset-doc-list">
+            {% for profile in builder_profiles %}
+            <div class="preset-doc-card">
+              <strong>{{ profile.name }}</strong>
+              <p>{{ profile.summary }}</p>
+              <p class="docs-note">Input: {{ profile.example_in }}</p>
+              <p class="docs-note">Output: {{ profile.example_out }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </article>
+
+        <article class="docs-card">
+          <p class="eyebrow">CPU Sizing</p>
+          <h2>נקודת האיזון של גודל מודל על ה-VPS הזה</h2>
+          <div class="control-list">
+            {% for size in model_size_guide %}
+            <div class="control-card">
+              <strong>{{ size.name }}</strong>
+              <p>{{ size.fit }}</p>
+            </div>
+            {% endfor %}
+          </div>
+          <p class="docs-note">
+            מסקנה פרקטית: לאימון מותר לך להיות סבלני, אבל לדמו אינטראקטיבי עדיף בדרך כלל להישאר באזור 5M-12M.
+          </p>
+        </article>
+      </section>
+
+          <section class="docs-section">
+        <article class="docs-card highlight-card">
+          <p class="eyebrow">Honest Demo Note</p>
+          <h2>מה חשוב לומר על המערכת הזו</h2>
+          <p>
+            זהו tiny educational model על CPU-only. לכן הוספתי גם guardrail פרגמטי בתוך מנוע הצ'אט:
+            המודל תמיד מקבל הזדמנות לענות ראשון, אבל אם הוא מחזיר פלט ריק או מנוון, המערכת נופלת בחזרה
+            לדוגמאות SFT קרובות. כך הדמו נשאר יציב, בלי לטעון טענות מוגזמות על חוזק המודל.
+          </p>
+        </article>
+      </section>
+
+          <section class="docs-section">
+        <article class="docs-card">
+          <p class="eyebrow">Archived Scope Prompt</p>
+          <h2>פרומפט האפיון המקורי</h2>
+          <details class="spoiler-card">
+            <summary class="spoiler-summary">הצג את הפרומפט המקורי ששימש לאפיון הפרויקט</summary>
+            <p class="docs-note">
+              הסעיף הזה סגור כברירת מחדל כדי לא להעמיס על הקריאה, אבל נשמר כאן לתיעוד מלא של הבריף המקורי.
+            </p>
+            <pre class="prompt-block">{{ original_scope_prompt }}</pre>
+          </details>
+        </article>
+      </section>
+        </main>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='site.js') }}"></script>
+  </body>
+</html>

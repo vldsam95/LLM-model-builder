@@ -1,0 +1,153 @@
+{
+  "name": "Flight Delay Classification Demo",
+  "slug": "flight-delay-classification-demo",
+  "description": "Classify flights into delay severity bands.",
+  "specialization": "flight delay band classification",
+  "project_family": "predictive_ai",
+  "created_at": "2026-03-15T22:19:24.451976+00:00",
+  "updated_at": "2026-03-15T22:19:24.452009+00:00",
+  "uploaded_files": [
+    {
+      "filename": "flight_delay_class_demo.csv",
+      "suffix": ".csv"
+    }
+  ],
+  "profile": "predictive_tabular",
+  "build_mode": "predictive_tabular",
+  "predictive_task": "classification",
+  "target_column": "delay_band",
+  "time_column": "scheduled_departure",
+  "feature_columns": [
+    "carrier",
+    "origin",
+    "destination",
+    "dep_hour",
+    "weekday",
+    "weather_score",
+    "previous_leg_delay",
+    "runway_load",
+    "scheduled_minutes"
+  ],
+  "forecast_horizon": 3,
+  "dataset_path": "builder_projects/flight-delay-classification-demo/raw/dataset.csv",
+  "dataset_overview": {
+    "rows": 360,
+    "columns": 12,
+    "column_names": [
+      "scheduled_departure",
+      "carrier",
+      "origin",
+      "destination",
+      "dep_hour",
+      "weekday",
+      "weather_score",
+      "previous_leg_delay",
+      "runway_load",
+      "scheduled_minutes",
+      "delay_minutes",
+      "delay_band"
+    ],
+    "preview": [
+      {
+        "scheduled_departure": "2025-01-01T05:00:00",
+        "carrier": "LY",
+        "origin": "TLV",
+        "destination": "LHR",
+        "dep_hour": 5,
+        "weekday": 2,
+        "weather_score": 2.45,
+        "previous_leg_delay": 21.57,
+        "runway_load": 0.62,
+        "scheduled_minutes": 244,
+        "delay_minutes": 43.69,
+        "delay_band": "moderate_delay"
+      },
+      {
+        "scheduled_departure": "2025-01-01T08:00:00",
+        "carrier": "W6",
+        "origin": "TLV",
+        "destination": "TLV",
+        "dep_hour": 8,
+        "weekday": 2,
+        "weather_score": 0.94,
+        "previous_leg_delay": 14.79,
+        "runway_load": 0.59,
+        "scheduled_minutes": 198,
+        "delay_minutes": 51.25,
+        "delay_band": "heavy_delay"
+      },
+      {
+        "scheduled_departure": "2025-01-01T11:00:00",
+        "carrier": "DL",
+        "origin": "ATH",
+        "destination": "MAD",
+        "dep_hour": 11,
+        "weekday": 2,
+        "weather_score": 2.2,
+        "previous_leg_delay": 0.0,
+        "runway_load": 0.39,
+        "scheduled_minutes": 56,
+        "delay_minutes": 19.12,
+        "delay_band": "on_time_or_small_delay"
+      },
+      {
+        "scheduled_departure": "2025-01-01T14:00:00",
+        "carrier": "W6",
+        "origin": "LHR",
+        "destination": "LHR",
+        "dep_hour": 14,
+        "weekday": 2,
+        "weather_score": 1.55,
+        "previous_leg_delay": 10.93,
+        "runway_load": 0.72,
+        "scheduled_minutes": 78,
+        "delay_minutes": 37.11,
+        "delay_band": "moderate_delay"
+      },
+      {
+        "scheduled_departure": "2025-01-01T17:00:00",
+        "carrier": "W6",
+        "origin": "TLV",
+        "destination": "LHR",
+        "dep_hour": 17,
+        "weekday": 2,
+        "weather_score": 8.47,
+        "previous_leg_delay": 0.69,
+        "runway_load": 0.36,
+        "scheduled_minutes": 241,
+        "delay_minutes": 49.08,
+        "delay_band": "moderate_delay"
+      }
+    ],
+    "dtypes": {
+      "scheduled_departure": "object",
+      "carrier": "object",
+      "origin": "object",
+      "destination": "object",
+      "dep_hour": "int64",
+      "weekday": "int64",
+      "weather_score": "float64",
+      "previous_leg_delay": "float64",
+      "runway_load": "float64",
+      "scheduled_minutes": "int64",
+      "delay_minutes": "float64",
+      "delay_band": "object"
+    }
+  },
+  "system_prompt": "",
+  "topics": [],
+  "base_checkpoint": null,
+  "tokenizer_model": null,
+  "language_mode": "structured",
+  "foundation_pack": "none",
+  "model_size": "tabular_cpu",
+  "schema_fields": [],
+  "label_options": [],
+  "scoring_scale": "",
+  "url_records": [],
+  "stats": {
+    "raw_notes_chars": 45,
+    "dataset_rows": 360,
+    "dataset_columns": 12
+  }
+}

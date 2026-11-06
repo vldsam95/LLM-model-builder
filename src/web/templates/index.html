@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiny Bilingual Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="chat-body">
+    <div class="site-page">
+      {% include "_site_header.html" %}
+      <div class="site-page-content">
+        <main class="app-shell">
+          <aside class="sidebar">
+            <div>
+              <p class="eyebrow">Educational Demo</p>
+              <h1>Tiny Bilingual Assistant</h1>
+              <p class="muted">
+                CPU-friendly GPT-style demo with tokenizer training, pretraining, domain adaptation, SFT and a local web UI.
+              </p>
+            </div>
+
+            <label>
+              <span>Checkpoint</span>
+              <select id="checkpoint">
+                {% for checkpoint in checkpoints %}
+                <option value="{{ checkpoint }}" {% if checkpoint == recommended_checkpoint %}selected{% endif %}>{{ checkpoint }}</option>
+                {% endfor %}
+              </select>
+            </label>
+
+            <label>
+              <span>System Instruction</span>
+              <textarea id="systemPrompt" rows="4" placeholder="Act as an SEO assistant."></textarea>
+            </label>
+
+            <div class="grid-two">
+              <label>
+                <div class="field-label">
+                  <span>Temperature</span>
+                  <details class="field-help">
+                    <summary class="help-trigger" aria-label="הסבר על Temperature">?</summary>
+                    <div class="help-popover">
+                      <strong>Temperature</strong>
+                      <p>שולטת ברמת היצירתיות והאקראיות של התשובה.</p>
+                      <p><strong>0.1</strong>: תשובות שמרניות וחזרתיות יותר.</p>
+                      <p><strong>0.7-0.9</strong>: איזון טוב לרוב הדמו.</p>
+                      <p><strong>1.4+</strong>: יותר גיוון, אבל גם יותר סיכון לטעויות או חוסר יציבות.</p>
+                    </div>
+                  </details>
+                </div>
+                <input id="temperature" type="number" value="0.8" min="0" max="2" step="0.1">
+              </label>
+              <label>
+                <div class="field-label">
+                  <span>Top-K</span>
+                  <details class="field-help">
+                    <summary class="help-trigger" aria-label="הסבר על Top-K">?</summary>
+                    <div class="help-popover">
+                      <strong>Top-K</strong>
+                      <p>מגביל לכמה אפשרויות המודל מסתכל בכל צעד לפני בחירת הטוקן הבא.</p>
+                      <p><strong>5</strong>: יותר צפוי ושמרני.</p>
+                      <p><strong>20-40</strong>: איזון טוב לדמו.</p>
+                      <p><strong>100+</strong>: יותר חופש וגיוון, אבל גם יותר רעש.</p>
+                    </div>
+                  </details>
+                </div>
+                <input id="topK" type="number" value="20" min="1" max="200" step="1">
+              </label>
+            </div>
+
+            <div class="grid-two">
+              <label>
+                <div class="field-label">
+                  <span>Max New Tokens</span>
+                  <details class="field-help">
+                    <summary class="help-trigger" aria-label="הסבר על Max New Tokens">?</summary>
+                    <div class="help-popover">
+                      <strong>Max New Tokens</strong>
+                      <p>האורך המקסימלי של התשובה שהמודל רשאי להמשיך לייצר.</p>
+                      <p><strong>16</strong>: תשובה קצרה מאוד, כמעט שורה אחת.</p>
+                      <p><strong>48-80</strong>: ברירת מחדל טובה לרוב המצבים.</p>
+                      <p><strong>128-256</strong>: תשובות ארוכות יותר, אבל איטיות יותר ולעיתים פחות ממוקדות.</p>
+                    </div>
+                  </details>
+                </div>
+                <input id="maxNewTokens" type="number" value="64" min="8" max="256" step="8">
+              </label>
+              <label class="toggle">
+                <span>JSON-style answer</span>
+                <input id="jsonMode" type="checkbox">
+              </label>
+            </div>
+
+            <div>
+              <span class="section-title">Presets</span>
+              <div class="preset-list">
+                {% for preset in presets %}
+                <button class="preset-btn" type="button" data-system="{{ preset.system }}">{{ preset.name }}</button>
+                {% endfor %}
+              </div>
+            </div>
+          </aside>
+
+          <section class="chat-panel">
+            <header class="chat-header">
+              <div>
+                <p class="eyebrow">Local Demo UI</p>
+                <h2>Chat</h2>
+              </div>
+              <div class="actions">
+                <button id="clearBtn" class="ghost">Clear</button>
+                <button id="regenBtn" class="ghost">Regenerate</button>
+              </div>
+            </header>
+
+            <div id="messages" class="messages"></div>
+
+            <form id="chatForm" class="chat-form">
+              <textarea id="messageInput" rows="3" placeholder="Ask in English or Hebrew."></textarea>
+              <button id="sendBtn" type="submit">Send</button>
+            </form>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script>
+      window.APP_BOOTSTRAP = {
+        checkpoints: {{ checkpoints|tojson }},
+      };
+    </script>
+    <script src="{{ url_for('static', filename='site.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

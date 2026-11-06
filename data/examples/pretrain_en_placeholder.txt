@@ -1,0 +1,2 @@
+Place small curated English text here if you want to add your own corpus.
+Good sources are short notes, markdown, or plain text that you are allowed to use.

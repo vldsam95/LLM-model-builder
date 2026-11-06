@@ -1,0 +1,36 @@
+{
+  "name": "HR Knowledge Demo",
+  "slug": "hr-knowledge-demo",
+  "description": "Answer short HR questions from internal policy notes.",
+  "specialization": "human resources and employee policy answers",
+  "profile": "internal_knowledge",
+  "build_mode": "fast_adapter",
+  "language_mode": "bilingual",
+  "foundation_pack": "general_open_pack",
+  "model_size": "safe_6m",
+  "topics": [
+    "remote work",
+    "vacation",
+    "onboarding"
+  ],
+  "schema_fields": [],
+  "label_options": [],
+  "scoring_scale": "1-5",
+  "system_prompt": "Answer only from the provided policy notes and stay brief.",
+  "base_checkpoint": "checkpoints/tiny_cpu_builder_base/best.pt",
+  "tokenizer_model": "tokenizer/tiny_bilingual.model",
+  "sequence_length": 128,
+  "vocab_size": 3200,
+  "created_at": "2026-03-15T20:38:23.954460+00:00",
+  "updated_at": "2026-03-15T20:38:23.954483+00:00",
+  "url_records": [],
+  "uploaded_files": [],
+  "stats": {
+    "raw_text_chars": 213,
+    "pretrain_en_chars": 213,
+    "pretrain_he_chars": 0,
+    "seed_dialogues": 18,
+    "custom_dialogues": 2,
+    "final_dialogues": 20
+  }
+}

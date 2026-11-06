@@ -1,0 +1,170 @@
+{"system": "Extract structured fields and return compact JSON only.", "user": "Extract the fields customer_name, product, renewal_date from this text: Dana Levi renewed the Analytics Pro plan on 2026-04-01.", "assistant": "{\"customer_name\": \"Dana Levi\", \"product\": \"Analytics Pro\", \"renewal_date\": \"2026-04-01\"}"}
+{"system": "Answer briefly and factually.", "user": "How much of Ireland's Russian speakers are Irish citizens?", "assistant": "20%"}
+{"system": "Answer briefly and factually.", "user": "In 2007, what kind of contest was Jennifer Strange participating in upon her death?", "assistant": "water-drinking"}
+{"system": "Answer briefly in English.", "user": "What is User interface?", "assistant": "In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה אתר אינטרנט?", "assistant": "אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט."}
+{"system": "Answer briefly and factually.", "user": "How many weeks is one academic quarter at Northwestern?", "assistant": "approximately 10"}
+{"system": "Answer briefly and factually.", "user": "Who was arrested on April 26 for posting an online message?", "assistant": "A Macau resident"}
+{"system": "Answer briefly and factually.", "user": "When did Alan Turing write his paper about the basis for the stored-program computer?", "assistant": "1936"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה בינה מלאכותית?", "assistant": "בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית."}
+{"system": "Answer briefly in English.", "user": "What is Machine learning?", "assistant": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions."}
+{"system": "Answer briefly in English.", "user": "What is Natural language processing?", "assistant": "Natural language processing (NLP) is the processing of natural language information by a computer."}
+{"system": "Answer briefly and factually.", "user": "How many Chinese troops and medics were involved in the relief efforts?", "assistant": "135,000"}
+{"system": "Answer briefly and factually.", "user": "What did the Radicals and Tories do that made Melbourne resign?", "assistant": "voted against a bill to suspend the constitution of Jamaica"}
+{"system": "Answer briefly and factually.", "user": "Who referred to 'Suez Syndrome'?", "assistant": "Margaret Thatcher"}
+{"system": "Respond in compact JSON only.", "user": "What can you do in JSON?", "assistant": "{\"task\": \"capabilities\", \"summary\": \"short answers, JSON extraction, and classification\"}"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: עדיפות", "assistant": "priority"}
+{"system": "Answer briefly in English.", "user": "What is Chatbot?", "assistant": "A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech."}
+{"system": "Answer briefly and factually.", "user": "Who designed MP3?", "assistant": "Moving Picture Experts Group"}
+{"system": "Answer briefly in English.", "user": "Explain JSON in one sentence.", "assistant": "JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values)."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה אוטומציה?", "assistant": "אוטומציה (מיוונית עתיקה – \"פועל מעצמו\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם."}
+{"system": "Answer briefly and factually.", "user": "What words were yelled by Librarians that required first year students to come?", "assistant": "\"Boy, Up!\" or \"Boy, Queue!\""}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את למידת מכונה ב-JSON.", "assistant": "{\"topic\": \"למידת מכונה\", \"summary\": \"למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה.\"}"}
+{"system": "Respond in compact JSON only.", "user": "Explain Chatbot in JSON.", "assistant": "{\"topic\": \"Chatbot\", \"summary\": \"A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech.\"}"}
+{"system": "Respond in compact JSON only.", "user": "Explain Computer in JSON.", "assistant": "{\"topic\": \"Computer\", \"summary\": \"A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation).\"}"}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את JSON ב-JSON.", "assistant": "{\"topic\": \"JSON\", \"summary\": \"JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך.\"}"}
+{"system": "Answer briefly and clearly.", "user": "Hello", "assistant": "Hello. I am a tiny neutral assistant for short answers, JSON extraction, and lightweight classification."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: כרטיס", "assistant": "ticket"}
+{"system": "Answer briefly in English.", "user": "What is Computer?", "assistant": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation)."}
+{"system": "Answer briefly and factually.", "user": "What degree was Edmund Fanning given for his services?", "assistant": "an honorary degree LL.D"}
+{"system": "Answer briefly in English.", "user": "Explain Computer in one sentence.", "assistant": "A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation)."}
+{"system": "Extract structured fields and return compact JSON only.", "user": "Extract the fields company, contact_email, product from this text: Nova Labs asked about the Insight Suite. Contact: ops@example.com.", "assistant": "{\"company\": \"Nova Labs\", \"contact_email\": \"ops@example.com\", \"product\": \"Insight Suite\"}"}
+{"system": "Answer briefly and factually.", "user": "Venus de Milo belongs to which period?", "assistant": "Hellenistic"}
+{"system": "Answer briefly and factually.", "user": "What is referred to as \"junk DNA\"?", "assistant": "DNA without an identified function"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה אתר אינטרנט.", "assistant": "אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט."}
+{"system": "Answer briefly in English.", "user": "Explain Translation in one sentence.", "assistant": "Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language')."}
+{"system": "Answer briefly and factually.", "user": "From what did the Renaissance Movement mark the change?", "assistant": "medieval' to the 'modern"}
+{"system": "Answer briefly and factually.", "user": "Who announced this would be his final year as a judge?", "assistant": "Randy Jackson"}
+{"system": "Answer briefly and factually.", "user": "What year marked the onset of the Crusades?", "assistant": "1095"}
+{"system": "ענה בקצרה ובעברית.", "user": "שלום", "assistant": "שלום. אני עוזר tiny ניטרלי לתשובות קצרות, חילוץ JSON וסיווג בסיסי."}
+{"system": "Answer briefly and factually.", "user": "What body replaced the War Plans Division?", "assistant": "Operations Division"}
+{"system": "Answer briefly and factually.", "user": "Is there anyone automatically eligible?", "assistant": ". All clubs in the top four levels (the Premier League and the three divisions of the Football League) are automatically eligible"}
+{"system": "Respond in compact JSON only.", "user": "Explain Machine learning in JSON.", "assistant": "{\"topic\": \"Machine learning\", \"summary\": \"Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.\"}"}
+{"system": "Answer briefly and factually.", "user": "What are CDO as related to the housing and credit booms?", "assistant": "collateralized debt obligations"}
+{"system": "Act as a translation assistant.", "user": "Translate 'policy' to Hebrew.", "assistant": "מדיניות"}
+{"system": "Answer briefly and factually.", "user": "Who unsuccessfully attempted a rebellion against Richard's royal administrators?", "assistant": "John"}
+{"system": "Answer briefly and factually.", "user": "When would the people on the custodial detention list be arrested?", "assistant": "in the event of war with Axis"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה תרגום?", "assistant": "תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה למידת מכונה.", "assistant": "למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה."}
+{"system": "Answer briefly and factually.", "user": "Which religious group is the second largest with 150,000 members?", "assistant": "the Russian Orthodox Church"}
+{"system": "Respond in compact JSON only.", "user": "Explain JSON in JSON.", "assistant": "{\"topic\": \"JSON\", \"summary\": \"JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values).\"}"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה בינה מלאכותית.", "assistant": "בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית."}
+{"system": "Answer briefly and factually.", "user": "Who issued the copper tokens in 1821?", "assistant": "Saul Solomon"}
+{"system": "Answer briefly and factually.", "user": "Who were the two men that won the Nobel Prize in Physics with Feynman?", "assistant": "Julian Schwinger and Sin-Itiro Tomonaga"}
+{"system": "Answer briefly and factually.", "user": "What year did free media outlets begin to expand?", "assistant": "2003"}
+{"system": "Answer briefly and factually.", "user": "What book did Ibn al-Haytham write?", "assistant": "Book of Optics"}
+{"system": "Answer briefly and factually.", "user": "Which mycobacterium that causes TB can often be found in unpasteurized milk?", "assistant": "M. bovis"}
+{"system": "Act as a translation assistant.", "user": "Translate 'ticket' to Hebrew.", "assistant": "כרטיס"}
+{"system": "Answer briefly and factually.", "user": "How does lucha libre's tag team matches differ?", "assistant": "often made up of three members, instead of two as is common in the U.S"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה מחשב?", "assistant": "מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש."}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את מחשב ב-JSON.", "assistant": "{\"topic\": \"מחשב\", \"summary\": \"מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש.\"}"}
+{"system": "Answer briefly and factually.", "user": "What official body recognizes both Canis lupus and Canis familiaris?", "assistant": "ICZN"}
+{"system": "Answer briefly and factually.", "user": "Which people became extinct after the Homosapiens arrived?", "assistant": "Homo floresiensis"}
+{"system": "Classify the text and return compact JSON only.", "user": "Labels: bug, feature_request, question. Text: The export button crashes every time I click it.", "assistant": "{\"label\": \"bug\", \"score\": 5, \"reason\": \"clear product failure\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה למידת מכונה?", "assistant": "למידת מכונה (באנגלית: Machine Learning; לעיתים מכונה גם למידה חישובית) היא תת-תחום במדעי המחשב ובבינה מלאכותית המשיק לתחומי הסטטיסטיקה והאופטימיזציה."}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה עיבוד שפה טבעית?", "assistant": "עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות."}
+{"system": "Answer briefly and factually.", "user": "Who granted Imperial close to 170 million pounds in grants?", "assistant": "Funding Council"}
+{"system": "Answer briefly in English.", "user": "What is Artificial intelligence?", "assistant": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."}
+{"system": "Answer briefly and factually.", "user": "What did most of Gondwana become when the polar ice melted?", "assistant": "desert"}
+{"system": "Answer briefly and factually.", "user": "What is common about the surviving mosaics from the 7th-9th centuries?", "assistant": "almost all represent Saint Demetrius"}
+{"system": "Answer briefly in English.", "user": "What is JSON?", "assistant": "JSON (JavaScript Object Notation, pronounced or ) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values)."}
+{"system": "Answer briefly and factually.", "user": "What was the purpose of the dual carriageway?", "assistant": "to link the Kinsale Road roundabout with the city centre"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה אתה יודע לעשות?", "assistant": "אני יכול לענות בקצרה, לסכם, לחלץ JSON ולסווג טקסטים קצרים."}
+{"system": "Answer briefly and factually.", "user": "What doesnt conetemporary humanism believe about human nature?", "assistant": "purely good"}
+{"system": "Answer briefly and factually.", "user": "What does the University of Arizona Poetry Center offer?", "assistant": "a sizable poetry library and presents readings, conferences, and workshops"}
+{"system": "Respond in compact JSON only.", "user": "Explain Automation in JSON.", "assistant": "{\"topic\": \"Automation\", \"summary\": \"Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines.\"}"}
+{"system": "Answer briefly and factually.", "user": "What year did Southampton City Council link with Busan, South Korea?", "assistant": "1978"}
+{"system": "Answer briefly and factually.", "user": "What country did China see as a threat to the People's Republic of China?", "assistant": "Western nations"}
+{"system": "Answer briefly and factually.", "user": "What term is it customary to use instead of subspecies?", "assistant": "race"}
+{"system": "Answer briefly and factually.", "user": "What is the \"Land of Israel\" known as in Hebrew?", "assistant": "Eretz Yisrael"}
+{"system": "Answer briefly and factually.", "user": "What makes zinc an efficient sacrificial anode?", "assistant": "relative reactivity of zinc and its ability to attract oxidation"}
+{"system": "Answer briefly and factually.", "user": "Where does 'The Kidnapping of Edgardo Mortara' take place?", "assistant": "Italy"}
+{"system": "Answer briefly in English.", "user": "Explain Machine learning in one sentence.", "assistant": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions."}
+{"system": "Answer briefly and factually.", "user": "What is the name of the hospital in West Raleigh?", "assistant": "Rex Hospital."}
+{"system": "Answer only from the provided internal notes.", "user": "Notes: Employees can work remotely up to 3 days a week. Question: How many remote days are allowed?", "assistant": "Employees can work remotely up to 3 days per week."}
+{"system": "Answer briefly and factually.", "user": "What are two of the top spiritual destination that Myanmar offers ?", "assistant": "Mon State, Pindaya, Bago and Hpa-An"}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את אתר אינטרנט ב-JSON.", "assistant": "{\"topic\": \"אתר אינטרנט\", \"summary\": \"אתר אינטרנט הוא אוסף של דפי אינטרנט (ולעיתים משאבים נוספים) המקושרים ביניהם ולרוב שותפים לשם תחום מסוים, וניתנים לגישה דרך רשת האינטרנט.\"}"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: מחשב", "assistant": "computer"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה JSON.", "assistant": "JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך."}
+{"system": "Answer briefly and factually.", "user": "What percentage of Galicians identify with this religion?", "assistant": "73%"}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את נתונים ב-JSON.", "assistant": "{\"topic\": \"נתונים\", \"summary\": \"נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה.\"}"}
+{"system": "Answer briefly in English.", "user": "Explain Natural language processing in one sentence.", "assistant": "Natural language processing (NLP) is the processing of natural language information by a computer."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה ממשק משתמש.", "assistant": "מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת."}
+{"system": "Answer briefly and factually.", "user": "Who was enslaved more often?", "assistant": "black women"}
+{"system": "Answer briefly in English.", "user": "What is Website?", "assistant": "A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server."}
+{"system": "Respond in compact JSON only.", "user": "Explain Website in JSON.", "assistant": "{\"topic\": \"Website\", \"summary\": \"A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server.\"}"}
+{"system": "חלץ מידע מובנה והחזר JSON קומפקטי בלבד.", "user": "חלץ את השדות customer_name, amount, due_date מהטקסט: ללקוח רון כהן הופקה חשבונית על סך 1,250 ש\"ח, לתשלום עד 2026-05-10.", "assistant": "{\"customer_name\": \"רון כהן\", \"amount\": \"1,250 ש\\\"ח\", \"due_date\": \"2026-05-10\"}"}
+{"system": "Answer briefly and factually.", "user": "Who did the Ming cut off all relations with?", "assistant": "the Karmapa hierarchs"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה JSON?", "assistant": "JSON (ראשי תיבות של JavaScript Object Notation) הוא תקן של פורמט קובץ ופורמט העברת מידע שמשתמש בטקסט קריא-לאדם כדי לאחסן ולהעביר מבני מידע המורכבים מזוגות של מפתח-ערך."}
+{"system": "Answer briefly in English.", "user": "Explain Data in one sentence.", "assistant": "Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally."}
+{"system": "Answer briefly and factually.", "user": "What can Parliament supplement the amendment proposed by the citizens with?", "assistant": "a counter-proposal"}
+{"system": "Answer briefly and factually.", "user": "Broadcast in Hong Kong used which standard formatting?", "assistant": "PAL standard"}
+{"system": "Act as a translation assistant.", "user": "Translate 'priority' to Hebrew.", "assistant": "עדיפות"}
+{"system": "Answer briefly and factually.", "user": "What is more cost-effective, heat from incandescent bulbs or heat from a building's heating system?", "assistant": "heat from the heating system"}
+{"system": "Answer briefly and factually.", "user": "Who was the head of the Hungarian government at the time of the revolt?", "assistant": "Imre Nagy"}
+{"system": "Answer briefly and factually.", "user": "Who replaced universities as centres of scientific research and development during the Enlightenment?", "assistant": "scientific societies and academies"}
+{"system": "Answer briefly and factually.", "user": "Who ended discrimination against difference Christian sects in Portugal?", "assistant": "Sebastião de Melo"}
+{"system": "Respond in compact JSON only.", "user": "Explain Artificial intelligence in JSON.", "assistant": "{\"topic\": \"Artificial intelligence\", \"summary\": \"Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\"}"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה ממשק משתמש?", "assistant": "מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת."}
+{"system": "ענה ב-JSON בלבד.", "user": "מה אתה יודע לעשות ב-JSON?", "assistant": "{\"task\": \"capabilities\", \"summary\": \"תשובות קצרות, חילוץ JSON וסיווג\"}"}
+{"system": "Answer briefly and factually.", "user": "When did the Black Death end?", "assistant": "1350"}
+{"system": "Answer briefly and factually.", "user": "How many Episcopal churches were in the Boston Metro area in 2010?", "assistant": "160"}
+{"system": "Answer briefly and factually.", "user": "What is the name of the Arboretum owned by the University of Michigan?", "assistant": "Nichols Arboretum"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה מחשב.", "assistant": "מַחְשֵׁב הוא מכונה אלקטרונית המסוגלת לעבד נתונים על פי תוכנה, כלומר על פי רצף פקודות נתון מראש."}
+{"system": "Answer briefly in English.", "user": "Explain Website in one sentence.", "assistant": "A website, or web site, is any web page whose content is identified by a common domain name and is published on at least one web server."}
+{"system": "Answer briefly and factually.", "user": "What is the proportionality voting referred to in Mexico City?", "assistant": "plurinominal deputies"}
+{"system": "Answer briefly and factually.", "user": "How many people were killed in the explosions at the Boston marathon?", "assistant": "three"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה תרגום.", "assistant": "תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה."}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את תרגום ב-JSON.", "assistant": "{\"topic\": \"תרגום\", \"summary\": \"תרגום הוא העברת מלל משפה אחת (שפת המקור) לשפה אחרת (שפת היעד), וזאת כדי שאנשים השולטים בשפת היעד, אך אינם שולטים בשפת המקור, יוכלו להבין מלל זה.\"}"}
+{"system": "Answer briefly and factually.", "user": "Who states imply that humans are their own Gods?", "assistant": "Feuerbach"}
+{"system": "Answer briefly in English.", "user": "Explain Chatbot in one sentence.", "assistant": "A chatbot (originally chatterbot) is a software application or web interface designed to converse through text or speech."}
+{"system": "Answer briefly and factually.", "user": "What term was coined in the 16th century to indicate present time?", "assistant": "modern"}
+{"system": "Act as a translation assistant.", "user": "Translate 'invoice' to Hebrew.", "assistant": "חשבונית"}
+{"system": "Answer briefly in English.", "user": "What is Translation?", "assistant": "Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language')."}
+{"system": "Answer briefly and factually.", "user": "What was the reception of Twilight Princess?", "assistant": "universal critical acclaim"}
+{"system": "Answer briefly and factually.", "user": "Why have birds been domesticated by humans?", "assistant": "both as pets and for practical purposes"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: מדיניות", "assistant": "policy"}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את עיבוד שפה טבעית ב-JSON.", "assistant": "{\"topic\": \"עיבוד שפה טבעית\", \"summary\": \"עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות.\"}"}
+{"system": "Answer briefly and factually.", "user": "To what religion is Boudhanath holy?", "assistant": "Buddhist"}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: חשבונית", "assistant": "invoice"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה עיבוד שפה טבעית.", "assistant": "עיבוד שפה טבעית (באנגלית: Natural Language Processing - NLP) הוא תת-תחום של בינה מלאכותית ובלשנות."}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה נתונים.", "assistant": "נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה."}
+{"system": "Answer briefly and factually.", "user": "What dialect did Alfred's government use?", "assistant": "West Saxon"}
+{"system": "Classify the text and return compact JSON only.", "user": "Labels: hot_lead, warm_lead, low_priority. Text: I need a proposal today and want to sign this week.", "assistant": "{\"label\": \"hot_lead\", \"score\": 5, \"reason\": \"urgent buying intent\"}"}
+{"system": "Answer briefly and factually.", "user": "Whose body is used as a proxy by Ganondorf in order to fight Link?", "assistant": "Zelda's"}
+{"system": "Answer briefly and factually.", "user": "Who gets to decide how long stoppage time can go on for?", "assistant": "referee"}
+{"system": "Answer briefly and factually.", "user": "When does \"Movement\" occur?", "assistant": "Memorial Day Weekend"}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את ממשק משתמש ב-JSON.", "assistant": "{\"topic\": \"ממשק משתמש\", \"summary\": \"מִמְשַׁק מִשְׁתַּמֵּשׁ (באנגלית: User Interface או בקיצור UI) הוא חלקהּ של מערכת החשוף למשתמש בה, כך שדרכו מתקיים הקשר בין המשתמש לבין המערכת.\"}"}
+{"system": "Answer briefly and factually.", "user": "What other notable figure signed the letter in which Hayek made his statement regarding private investment?", "assistant": "Lionel Robbins"}
+{"system": "Answer briefly in English.", "user": "What is Automation?", "assistant": "Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines."}
+{"system": "Answer briefly and factually.", "user": "These theorems have to assume what theory is correct?", "assistant": "general relativity"}
+{"system": "ענה בקצרה ובעברית.", "user": "מה זה נתונים?", "assistant": "נתון – ברבים נתונים (דָּאטָה; מאנגלית: Data) הוא תיאור כמותי (על ידי מספר) של מכלול פריטים או תופעות מהמציאות או מהדמיון אשר גודלם נמדד בעזרת יחידות מידה."}
+{"system": "Answer briefly and factually.", "user": "When did the USFL shut down?", "assistant": "1985"}
+{"system": "Answer briefly in English.", "user": "Explain Automation in one sentence.", "assistant": "Automation describes a wide range of technologies that reduce human intervention in processes, mainly by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines."}
+{"system": "Answer briefly and clearly.", "user": "What can you do?", "assistant": "I can answer short questions, summarize notes, extract compact JSON, and classify short text."}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את אוטומציה ב-JSON.", "assistant": "{\"topic\": \"אוטומציה\", \"summary\": \"אוטומציה (מיוונית עתיקה – \\\"פועל מעצמו\\\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם.\"}"}
+{"system": "Answer briefly and factually.", "user": "What year was the college founded?", "assistant": "1887"}
+{"system": "Respond in compact JSON only.", "user": "Explain User interface in JSON.", "assistant": "{\"topic\": \"User interface\", \"summary\": \"In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur.\"}"}
+{"system": "Answer briefly and factually.", "user": "Where does Yale own 500 acres of athletic facilities?", "assistant": "western New Haven"}
+{"system": "Answer briefly and factually.", "user": "What is the lifestyle of hunter-gatherers?", "assistant": "nomadic or semi-nomadic"}
+{"system": "Respond in compact JSON only.", "user": "Explain Translation in JSON.", "assistant": "{\"topic\": \"Translation\", \"summary\": \"Translation in the field of language is the communication of the meaning of a source-language text by means of an equivalent target-language text (also called 'receptor language').\"}"}
+{"system": "Answer briefly and factually.", "user": "What percentage of the New York City population is Japanese?", "assistant": "0.3%"}
+{"system": "Answer briefly and factually.", "user": "What is anting?", "assistant": "bird encourages ants to run through their plumage"}
+{"system": "Answer briefly and factually.", "user": "How did British rule effect Indian cotton processing?", "assistant": "declined"}
+{"system": "Respond in compact JSON only.", "user": "Explain Data in JSON.", "assistant": "{\"topic\": \"Data\", \"summary\": \"Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally.\"}"}
+{"system": "Answer briefly in English.", "user": "Explain User interface in one sentence.", "assistant": "In the industrial design field of human–computer interaction, a user interface (UI) is the space where interactions between humans and machines occur."}
+{"system": "ענה רק על בסיס החומר שסופק.", "user": "הערות: לקוחות enterprise מקבלים SLA של שעתיים. שאלה: מה זמן התגובה ללקוחות enterprise?", "assistant": "זמן התגובה ללקוחות enterprise הוא שעתיים."}
+{"system": "פעל כעוזר תרגום קצר.", "user": "תתרגם לאנגלית: בית", "assistant": "house"}
+{"system": "Act as a translation assistant.", "user": "Translate 'computer' to Hebrew.", "assistant": "מחשב"}
+{"system": "Answer briefly and factually.", "user": "How many race options were there?", "assistant": "five enumerated races"}
+{"system": "Answer briefly and factually.", "user": "When did Watch Tower supporters gather as autonomous congregations to study the Bible?", "assistant": "From 1879"}
+{"system": "Answer only from the provided internal notes.", "user": "Notes: API keys rotate every 90 days. Question: How often should API keys rotate?", "assistant": "API keys should rotate every 90 days."}
+{"system": "Answer briefly and factually.", "user": "Along with Sarah McLachlan, Natalie Merchant, Melissa Etheridge and Sheryl Crow, what female singer-songwriter had chart success in the 1990s?", "assistant": "Jewel"}
+{"system": "סווג את הטקסט והחזר רק JSON קומפקטי.", "user": "קטגוריות: חיובי, נייטרלי, שלילי. טקסט: השירות היה מהיר ומדויק ואני מרוצה מאוד.", "assistant": "{\"label\": \"חיובי\", \"score\": 5, \"reason\": \"שביעות רצון גבוהה\"}"}
+{"system": "Respond in compact JSON only.", "user": "Explain Natural language processing in JSON.", "assistant": "{\"topic\": \"Natural language processing\", \"summary\": \"Natural language processing (NLP) is the processing of natural language information by a computer.\"}"}
+{"system": "Answer briefly in English.", "user": "What is Data?", "assistant": "Data ( DAY-tə, US also DAT-ə) are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally."}
+{"system": "ענה ב-JSON בלבד.", "user": "תסביר את בינה מלאכותית ב-JSON.", "assistant": "{\"topic\": \"בינה מלאכותית\", \"summary\": \"בינה מלאכותית (באנגלית: Artificial Intelligence; בקיצור: AI) היא יכולתן של מערכות טכנולוגיות ומחשבים לדמות היבטים של תבונה אנושית, ובכלל זה למידה, הסקת מסקנות, פתרון בעיות ותפיסה חזותית או לשונית.\"}"}
+{"system": "ענה בעברית פשוטה.", "user": "תסביר בקצרה מה זה אוטומציה.", "assistant": "אוטומציה (מיוונית עתיקה – \"פועל מעצמו\") היא שימוש באביזרים מכניים או אלקטרוניים, על-מנת לבצע סדרת פעולות, ברצף מתוכנן, ללא מגע יד אדם."}
+{"system": "Act as a translation assistant.", "user": "Translate 'house' to Hebrew.", "assistant": "בית"}
+{"system": "Answer briefly in English.", "user": "Explain Artificial intelligence in one sentence.", "assistant": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making."}
+{"system": "Answer briefly and factually.", "user": "What kind of poetry inspired Ottoman Divan Poetry?", "assistant": "Persian poetry"}

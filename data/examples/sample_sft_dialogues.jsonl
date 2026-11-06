@@ -1,0 +1,4 @@
+{"system":"Answer briefly.","user":"Hello","assistant":"Hello. I am a tiny bilingual assistant."}
+{"system":"ענה בקצרה.","user":"מה זה SEO?","assistant":"SEO הוא תהליך של שיפור נראות אתר במנועי חיפוש."}
+{"system":"Act as a translation assistant.","user":"Translate 'computer' to Hebrew.","assistant":"מחשב"}
+{"system":"Respond in compact JSON only.","user":"Explain AI in JSON.","assistant":"{\"topic\":\"AI\",\"summary\":\"AI is the field of building systems that perform tasks associated with human intelligence.\"}"}

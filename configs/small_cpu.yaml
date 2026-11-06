@@ -1,0 +1,37 @@
+seed: 42
+device: cpu
+experiment_name: small_cpu_pretrain
+output_dir: checkpoints/small_cpu_pretrain
+tokenizer_model: tokenizer/tiny_bilingual.model
+train_tokens_path: data/processed/pretrain_train_tokens.pt
+val_tokens_path: data/processed/pretrain_val_tokens.pt
+sequence_length: 192
+batch_size: 6
+grad_accum_steps: 3
+num_epochs: 8
+learning_rate: 0.0006
+min_learning_rate: 0.00006
+weight_decay: 0.1
+dropout: 0.1
+max_grad_norm: 1.0
+eval_every_steps: 120
+save_every_steps: 240
+log_every_steps: 20
+warmup_steps: 75
+early_stopping_patience: 4
+resume_from: null
+num_workers: 0
+amp: false
+model:
+  vocab_size: 4000
+  max_seq_len: 192
+  d_model: 288
+  n_heads: 8
+  n_kv_heads: 4
+  n_layers: 8
+  ffn_mult: 4.0
+  dropout: 0.1
+  bias: true
+  norm_type: rmsnorm
+  ffn_type: swiglu
+  tie_embeddings: true
